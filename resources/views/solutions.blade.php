@@ -1,4 +1,4 @@
-<x-head></x-head>
+<!-- <x-head></x-head>
 <x-header></x-header>
 
 <body>
@@ -87,4 +87,4 @@
 
 </body>
 <x-footer></x-footer>
-<x-scripts></x-scripts>
+<x-scripts></x-scripts> -->
