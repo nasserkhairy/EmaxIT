@@ -17,3 +17,7 @@ Route::get('/services', function () {
 Route::get('/Portfolio', function () {
     return view('trial');
 });
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
