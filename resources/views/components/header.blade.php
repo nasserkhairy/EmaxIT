@@ -24,13 +24,13 @@
                               Services
                             </a>
                             <ul>
-                              <li><a href="#">Software development</a></li>
+                              <li><a href="/Portfolio" class="<?php echo $_SERVER['REQUEST_URI'] == '/portfolio' ? 'active' : ''; ?>">Software development</a></li>
                               <li><a href="#">Data analytics</a></li>
                               <li><a href="#">Digital marketing</a></li>
                               <li><a href="#">Consultation</a></li>
                             </ul>
                         </li>
-                        <li class="scroll-to-section"><a href="/Portfolio" class="<?php echo $_SERVER['REQUEST_URI'] == '/portfolio' ? 'active' : ''; ?>">Portfolio</a></li>
+                       
                         <li class="scroll-to-section"><a href="#contact" class="<?php echo $_SERVER['REQUEST_URI'] == '/contact' ? 'active' : ''; ?>">Contact Us</a></li>
                         <li class="scroll-to-section">
                             <div class="main-blue-button"><a href="#contact">Request Demo</a></div>
