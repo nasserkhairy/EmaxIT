@@ -1248,3 +1248,147 @@
         padding: 30px 0;
     }
 }
+
+        /* About Us Section CSS */
+        .about-us {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .section-heading h6 {
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #7c8d93;
+            margin-bottom: 15px;
+        }
+
+        .section-heading h2 {
+            font-size: 48px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            color: #2d3436;
+        }
+
+        .section-heading h2 em {
+            color: #ff7800;
+            font-style: normal;
+        }
+
+        .section-heading h2 span {
+            color: #6fbbfe;
+            font-style: italic;
+        }
+
+        .about-item {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .about-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .about-item h4 {
+            font-size: 36px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            color: #ff7800;
+            margin-bottom: 10px;
+        }
+
+        .about-item h6 {
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            color: #2d3436;
+        }
+
+        .left-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+      
+        .stats-section {
+            background: #fff;
+            padding: 40px 0;
+            margin-top: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .stats-item {
+            text-align: center;
+            padding: 20px;
+            
+        }
+
+        .stats-item h3 {
+            font-size: 40px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            color: #ff7800;
+            margin-bottom: 10px;
+        }
+
+        .stats-item p {
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+            color: #2d3436;
+            text-transform: uppercase;
+           
+        }
+        #about-text{
+            font-size: 21px;
+            font-family: 'Poppins', sans-serif;
+            color: #000;
+            line-height: 1.6;
+            margin-top: 20px;
+            padding: 0 15px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 991px) {
+            .about-us {
+                padding: 50px 0;
+            }
+
+            .section-heading h2 {
+                font-size: 36px;
+            }
+
+            .about-item h4 {
+                font-size: 28px;
+            }
+
+            .left-image {
+                margin-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .section-heading h2 {
+                font-size: 28px;
+            }
+
+            .about-item h4 {
+                font-size: 24px;
+            }
+
+            .stats-item h3 {
+                font-size: 30px;
+            }
+
+            .about-us {
+                padding: 30px 0;
+            }
+        }   
+/* End About Us Section CSS */
