@@ -18,12 +18,12 @@
                             <div class="px-4 px-lg-4">
                                 <div class="desc">
                                     <div class="top">
-                                        <span class="subheading">Exterior {12/07/2020}</span>
-                                        <h2 class="mb-4"><a href="work.html">iVisionMT TNA software</a></h2>
+                                      
+                                        <h2 class="mb-4">iVisionMT TNA software</h2>
                                     </div>
                                     <div class="absolute">
                                         <p>A brilliant workforce management software that is professional, accurate, flexible, comprehensive, reliable, and easy to use.</p>
-                                        <p><a href="#" class="custom-btn">View Portfolio</a></p>
+                                        <p><a href="/ivisionmt" class="custom-btn">View Portfolio</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -41,12 +41,12 @@
                             <div class="px-4 px-lg-4">
                                 <div class="desc text-md-right">
                                     <div class="top">
-                                        <span class="subheading">Furniture {12/07/2020}</span>
-                                        <h2 class="mb-4"><a href="work.html">Twin Office</a></h2>
+                                        
+                                        <h2 class="mb-4">XIGHTSTUDIO</h2>
                                     </div>
                                     <div class="absolute">
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-                                        <p><a href="#" class="custom-btn">View Portfolio</a></p>
+                                        <p><a href="/xight" class="custom-btn">View Portfolio</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                             <div class="px-4 px-lg-4">
                                 <div class="desc">
                                     <div class="top">
-                                        <span class="subheading">Building {12/07/2020}</span>
+                                        <span class="subheading">COMING SOON</span>
                                         <h2 class="mb-4"><a href="work.html">Cultural Complex Centre</a></h2>
                                     </div>
                                     <div class="absolute">

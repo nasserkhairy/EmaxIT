@@ -26,3 +26,14 @@ Route::get('/digital_markting', function () {
 Route::get('/consultation', function () {
     return view('../services/consultation');
 });
+
+// solutions
+Route::get('/ivisionmt', function () {
+    return view('../portofolio/ivisionmt');
+});
+Route::get('/xight', function () {
+    return view('../portofolio/xight');
+});
+Route::get('/xpert', function () {
+    return view('../portofolio/xpert');
+});
