@@ -173,7 +173,7 @@
                                 <h5 class="mb-3">Application Modernization</h5>
                                 <p>Legacy systems slow you down. At EmaxIT International, we help enterprises modernize outdated
                                      applications—turning them into agile, secure, cloud-native solutions built for scale and innovation.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="../customSD/#application">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -187,7 +187,7 @@
                                 <p>Build. Engage. Grow.
                                 At EmaxIT International, we craft mobile experiences that go beyond functionality—they inspire loyalty, streamline operations, and drive growth.
                                 Whether it’s a native app, hybrid solution, or PWA, we deliver high-performance mobile products that users love.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="../customSD/#mobile">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -200,7 +200,7 @@
                                 <h5 class="mb-3">Web Development</h5>
                                 <p>Your website is more than a digital brochure—it’s the front line of your brand. At EmaxIT International, we design and build high-performing
                                     websites and web applications that drive engagement, simplify operations, and accelerate growth.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="../customSD/#web">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -214,7 +214,7 @@
                                 <p>Build smarter, faster, and more scalable applications.
                                 At EmaxIT International, we design microservices-based systems that break complex apps into independent,
                                  modular services—each handling a specific business function. The result? Better agility, resilience, and speed.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="../customSD/#microservices">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -227,7 +227,7 @@
                                 <h5 class="mb-3">Quality Assurance</h5>
                                 <p>Delivering reliable, secure, and user-friendly software starts with quality.
                                 At EmaxIT International, our QA services ensure your applications meet the highest standards before going live—minimizing risk and maximizing user satisfaction.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="../customSD/#qa">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -240,7 +240,7 @@
                                 <p>Deliver better software—faster and safer.
                                 At EmaxIT International, our DevOps services accelerate delivery by unifying development and operations through automation,
                                  collaboration, and continuous improvement.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="../customSD/#devops">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -254,7 +254,7 @@
                                 <p>From Vision to Execution
                                 At EmaxIT International, our Solution Architecture services ensure your technology investments are aligned with your business goals. We design robust, scalable,
                                 and secure systems that solve real-world challenges and support long-term growth</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill"  href="../customSD/#solution">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -268,7 +268,7 @@
                                 <p>Seamless Connectivity, Smarter Systems
                                 At EmaxIT International, we specialize in integrating APIs that connect systems, streamline workflows, and unlock new possibilities. Whether it’s payment gateways, third-party platforms,
                                 or internal tools—our API solutions ensure your software ecosystem works as one.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="../customSD/#api">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -282,7 +282,7 @@
                                 <p>Upgrade Performance. Unlock Possibilities.
                                 Outdated databases slow your business down. At EmaxIT International, we help you migrate and modernize your database systems to boost speed, reduce costs, and
                                 scale with confidence—whether you’re moving to the cloud or redesigning your data architecture.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill"  href="../customSD/#database">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">

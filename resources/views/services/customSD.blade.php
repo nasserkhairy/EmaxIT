@@ -9,7 +9,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="application">
                 <h6>Custom &nbsp; Software &nbsp; Development &nbsp; services</h6>
                 <h2>Application Modernization</h2>
             </div>
@@ -65,7 +65,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="mobile">
 
                 <h2>Mobile Development</h2>
             </div>
@@ -125,7 +125,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="web">
 
                 <h2>Web Development </h2>
             </div>
@@ -183,7 +183,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="microservices">
 
                 <h2>Microservices Architecture</h2>
             </div>
@@ -242,7 +242,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="qa">
 
                 <h2>Quality Assurance (QA)</h2>
             </div>
@@ -300,7 +300,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="devops">
 
                 <h2>DevOps Services</h2>
             </div>
@@ -356,7 +356,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="solution">
 
                 <h2>Solution Architecting</h2>
             </div>
@@ -413,7 +413,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="api">
 
                 <h2>API Integration</h2>
             </div>
@@ -471,7 +471,7 @@
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
-            <div class="l_title text-center">
+            <div class="l_title text-center" id="database">
 
                 <h2>Database Migration & Modernization</h2>
             </div>
