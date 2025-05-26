@@ -11,22 +11,18 @@ Route::get('/about', function () {
 Route::get('/solutions', function () {
     return view('solutions');
 });
-Route::get('/services', function () {
-    return view('services');
-});
+
+// Services
 Route::get('/customSD', function () {
-    return view('customSD');
+    return view('../services/customSD');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
 Route::get('/data_analyrics', function () {
-    return view('data_analyrics');
+    return view('..services/data_analyrics');
 });
 Route::get('/digital_markting', function () {
-    return view('digital_markting');
+    return view('../services/digital_markting');
 });
 Route::get('/consultation', function () {
-    return view('consultation');
+    return view('../services/consultation');
 });
