@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <x-head></x-head>
     <link rel="preload" as="image" href="{{ asset('assets/images/p1.webp') }}">
+    <x-head></x-head>
 </head>
 
 <body class="bg-light">
