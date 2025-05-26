@@ -84,7 +84,7 @@
             </div>
             <div class="col-lg-6 d-flex">
               <div class="w-100 contract-img">
-                <img src="{{ asset('assets/images/EMAXIT contract photo copy.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                <img src="{{ asset('assets/images/EMAXIT contract photo.webp') }}" alt="Team Discussion" class="img-fluid h-100">
               </div>
             </div>
           </div>
