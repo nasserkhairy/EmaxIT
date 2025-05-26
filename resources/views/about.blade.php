@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <p id="about-text">
-                    <a style="font-size:25px;" href="">EmaxIT</a>
+                    <a style="font-size:25px;color:#ff8700;" href="">EmaxIT</a>
                     International Inc. is a rapidly growing software company that has established itself as a leader in
                     the dynamic and ever-evolving field of enterprise technology solutions. Founded in 2000, the company
                     has consistently pushed the boundaries of innovation, delivering cutting-edge solutions tailored to
