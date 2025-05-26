@@ -903,7 +903,126 @@ header
   line-height: normal;
 }
 
+/*
+---------------------------------------------
+preloader
+---------------------------------------------
+*/
 
+.js-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+}
+
+  .js-preloader.loaded {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  @-webkit-keyframes dot {
+    50% {
+      -webkit-transform: translateX(96px);
+      transform: translateX(96px);
+      -moz-transform: translateX(96px);
+      -ms-transform: translateX(96px);
+      -o-transform: translateX(96px);
+    }
+  }
+
+  @keyframes dot {
+    50% {
+      -webkit-transform: translateX(96px);
+      transform: translateX(96px);
+      -moz-transform: translateX(96px);
+      -ms-transform: translateX(96px);
+      -o-transform: translateX(96px);
+    }
+  }
+
+  @-webkit-keyframes dots {
+    50% {
+      -webkit-transform: translateX(-31px);
+      transform: translateX(-31px);
+      -moz-transform: translateX(-31px);
+      -ms-transform: translateX(-31px);
+      -o-transform: translateX(-31px);
+    }
+  }
+
+  @keyframes dots {
+    50% {
+      transform: translateX(-31px);
+}
+  }
+
+  .preloader-inner {
+    position: relative;
+    width: 142px;
+    height: 40px;
+    background: #fff;
+  }
+
+  .preloader-inner .dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    left: 15px;
+    background: #ff7800;
+    border-radius: 50%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-animation: dot 2.8s infinite;
+    animation: dot 2.8s infinite;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+
+  .preloader-inner .dots {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    margin-top: 12px;
+    margin-left: 31px;
+    -webkit-animation: dots 2.8s infinite;
+    animation: dots 2.8s infinite;
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+
+  .preloader-inner .dots span {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 16px;
+    background: #ff7800;
+    border-radius: 50%;
+  }
 
 /*
 --------------------------------------------
@@ -1266,6 +1385,10 @@ Portfolio
   border-radius: 50%;
   color: #ddd;
   transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
 .our-portfolio .owl-nav span:hover {
@@ -1311,6 +1434,10 @@ contact
   font-size: 15px;
   color: #afafaf;
   transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .contact-us .contact-info ul li:hover a {
@@ -1335,6 +1462,10 @@ form#contact {
   padding: 60px 80px;
   border-radius: 50px;
   text-align: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 form#contact input {
@@ -1349,6 +1480,10 @@ form#contact input {
   color: #2a2a2a;
   padding: 0px 20px;
   margin-bottom: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 form#contact input::placeholder {
@@ -1371,6 +1506,10 @@ form#contact textarea {
   color: #2a2a2a;
   padding: 15px 20px;
   margin-bottom: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 form#contact textarea::placeholder {
