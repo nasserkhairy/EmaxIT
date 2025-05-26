@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="container" style="background-color: rgba(194, 192, 189, 0.086) padding: 20px 0;">
         <div class="row">
             <div class="col-lg-12">
                 <p>Copyright © 2025 EmaxIT Co., All Rights Reserved.

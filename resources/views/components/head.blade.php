@@ -20,8 +20,6 @@
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{asset('assets/css/fontawesome.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/templatemo-seo-dream.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/animated.css')}}">
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.css')}}"> 
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css')}}">
 
 
