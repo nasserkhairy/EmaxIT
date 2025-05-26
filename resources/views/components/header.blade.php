@@ -5,7 +5,7 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="/" class="logo nav-link">
-                        <img src="assets/images/emaxit _logo.png" alt="" style=" height: 35px; margin-top: 20px;">
+                        <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt="" style=" height: 35px; margin-top: 20px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
