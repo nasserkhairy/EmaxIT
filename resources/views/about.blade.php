@@ -1,7 +1,4 @@
 <x-head>
-
-    <style>
-    </style>
 </x-head>
 <x-header></x-header>
 
@@ -95,5 +92,6 @@
 
     </div>
 </div>
+<x-scripts></x-scripts>
 
 <x-footer></x-footer>
