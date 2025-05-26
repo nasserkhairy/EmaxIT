@@ -188,7 +188,7 @@
     height: 85vh;
     padding: 2rem;
     margin: 0 auto;
-    background-image: url("../images/world-map.png");
+    background-image: url("../images/world-map.webp");
     background-size: 55%;
     background-position: right;
     background-repeat: no-repeat;
@@ -983,7 +983,7 @@
 
 /* End Blog Main Area css
 ============================================================================================ */
-/* Challange Area css 23 march 2023 تنسيق صفحات ال subservices 
+/* Challange Area css 23 march 2023 تنسيق صفحات ال subservices
 ============================================================================================ */
 .challange_area {
     padding: 100px 0;

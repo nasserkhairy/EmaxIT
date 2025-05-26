@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preload" as="image" href="{{ asset('assets/images/world-map.webp') }}">
     <link rel="preload" as="image" href="{{ asset('assets/images/p1.webp') }}">
     <x-head></x-head>
 </head>
