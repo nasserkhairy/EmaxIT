@@ -1385,6 +1385,10 @@ Portfolio
   border-radius: 50%;
   color: #ddd;
   transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
 .our-portfolio .owl-nav span:hover {
@@ -1430,6 +1434,10 @@ contact
   font-size: 15px;
   color: #afafaf;
   transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .contact-us .contact-info ul li:hover a {
@@ -1454,6 +1462,10 @@ form#contact {
   padding: 60px 80px;
   border-radius: 50px;
   text-align: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 form#contact input {
@@ -1468,6 +1480,10 @@ form#contact input {
   color: #2a2a2a;
   padding: 0px 20px;
   margin-bottom: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 form#contact input::placeholder {
@@ -1490,6 +1506,10 @@ form#contact textarea {
   color: #2a2a2a;
   padding: 15px 20px;
   margin-bottom: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 form#contact textarea::placeholder {

@@ -29,7 +29,7 @@
                             efficient workforce management</p>
                         <a href="#" class="slider-btn d-none d-md-inline-block">Learn More</a>
                     </div>
-                    <img src="{{ asset('assets/images/p1.png') }}" style=" transform: scaleX(-1);" alt="Image 1">
+                    <img src="{{ asset('assets/images/p1.webp') }}" style=" transform: scaleX(-1);" alt="Image 1">
                 </div>
                 <div class="slider-item" id="slide-2">
                     <div class="slider-text">
@@ -38,7 +38,7 @@
                             performance and achieve your goals</p>
                         <a href="#" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
-                    <img src="{{ asset('assets/images/p4.png') }}" style=" transform: scaleX(-1);" alt="Image 2">
+                    <img src="{{ asset('assets/images/p4.webp') }}" style=" transform: scaleX(-1);" alt="Image 2">
                 </div>
                 <div class="slider-item" id="slide-3">
                     <div class="slider-text ">
@@ -47,7 +47,7 @@
                             your business more efficient and innovative</p>
                         <a href="#" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
-                    <img src="{{ asset('assets/images/p3.png') }}" style=" transform: scaleX(1);" alt="Image 3">
+                    <img src="{{ asset('assets/images/p3.webp') }}" style=" transform: scaleX(1);" alt="Image 3">
                 </div>
                 <div class="slider-item" id="slide-4">
                     <div class="slider-text ">
@@ -57,7 +57,7 @@
                             Make data-driven decisions with confidence</p>
                         <a href="#" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
-                    <img src="{{ asset('assets/images/p2.png') }}" style=" transform: scaleX(-1);" alt="Image 3">
+                    <img src="{{ asset('assets/images/p2.webp') }}" style=" transform: scaleX(-1);" alt="Image 3">
                 </div>
             </div>
             <div class="slider-nav">
