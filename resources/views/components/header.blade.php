@@ -24,10 +24,10 @@
                               Services
                             </a>
                             <ul>
-                              <li><a href="/Portfolio" class="<?php echo $_SERVER['REQUEST_URI'] == '/portfolio' ? 'active' : ''; ?>">Software development</a></li>
-                              <li><a href="#">Data analytics</a></li>
-                              <li><a href="#">Digital marketing</a></li>
-                              <li><a href="#">Consultation</a></li>
+                              <li><a href="/customSD" class="<?php echo $_SERVER['REQUEST_URI'] == '/customSD' ? 'active' : ''; ?>">Software development</a></li>
+                              <li><a href="/data_analyrics" class="<?php echo $_SERVER['REQUEST_URI'] == '/data_analyrics' ? 'active' : ''; ?>">Data analytics</a></li>
+                              <li><a href="/digital_markting" class="<?php echo $_SERVER['REQUEST_URI'] == '/digital_markting' ? 'active' : ''; ?>">Digital marketing</a></li>
+                              <li><a href="/consultation" class="<?php echo $_SERVER['REQUEST_URI'] == '/consultation' ? 'active' : ''; ?>">Consultation</a></li>
                             </ul>
                         </li>
                        
