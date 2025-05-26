@@ -1,4 +1,8 @@
-<x-head></x-head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <x-head></x-head>
+</head>
 
 <body class="bg-light">
 

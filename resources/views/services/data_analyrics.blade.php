@@ -1,11 +1,15 @@
-<x-head></x-head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <x-head></x-head>
+</head>
 <x-header></x-header>
 
 <section class="challange_area">
     <div class="container-fluid">
         <div class="row">
             <div class="l_title text-center">
-                
+
                 <h2>Data Analytics Services</h2>
             </div>
             <div class="col-lg-7 col-md-12">
