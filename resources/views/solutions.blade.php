@@ -80,7 +80,7 @@
         </div>
     </div>
 </section>
-
-<x-footer></x-footer>
 <x-scripts></x-scripts>
+<x-footer></x-footer>
+
 
