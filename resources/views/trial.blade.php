@@ -67,6 +67,7 @@
 @media (max-width: 991px) {
     .challange_area {
         padding: 50px 0; /* تقليل الـ padding للشاشات الصغيرة */
+        margin-top: 100px; /* إضافة مسافة أعلى */
     }
 
     .container-fluid {

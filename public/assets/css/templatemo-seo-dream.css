@@ -702,7 +702,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff7800 !important;
+  color: #ff8700 !important;
 }
 
 @media (max-width: 1200px) {
@@ -863,7 +863,18 @@ header
     display: flex !important;
   }
 }
+@media (max-width: 991px) {
+ .header-area .main-nav .logo  {
+    display: flex !important;
+   margin-left: auto !important;
 
+  }
+}
+@media (max-width: 270px) {
+     .header-area .menu-trigger{
+        display: none !important;
+    }
+}
 /* new */
 .dropdown-menu {
   padding: 10px 0;

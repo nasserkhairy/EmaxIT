@@ -434,7 +434,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Data Analytics Services.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Data analytics services (1).png') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Data Analytics Services</h5>
@@ -446,7 +446,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Digital Marketing Services.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Digital Marketing services (1).png') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Digital Marketing Services</h5>
