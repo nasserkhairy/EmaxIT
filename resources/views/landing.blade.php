@@ -162,7 +162,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Application Modernization.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Application Modernization.webp') }}" alt="">
                                 </div>
                                 <h5 class="mb-3">Application Modernization</h5>
                                 <p>Legacy systems slow you down. At EmaxIT International, we help enterprises modernize outdated
@@ -174,7 +174,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Mobile Development.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Mobile Development.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Mobile Development</h5>
@@ -188,7 +188,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Web Development.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Web Development.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Web Development</h5>
@@ -201,7 +201,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Microservices.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Microservices.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Microservices</h5>
@@ -215,7 +215,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Quality Assurance.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Quality Assurance.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Quality Assurance</h5>
@@ -228,7 +228,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                     <img src="{{ asset('assets/images/DevOps Services.png') }}" alt="">
+                                     <img src="{{ asset('assets/images/DevOps Services.webp') }}" alt="">
                                 </div>
                                 <h5 class="mb-3">DevOps Services</h5>
                                 <p>Deliver better software—faster and safer.
@@ -241,7 +241,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Solution Architect.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Solution Architect.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Solution Architect</h5>
@@ -255,7 +255,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/API Integration.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/API Integration.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">API Integration</h5>
@@ -269,7 +269,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Database Migration and Modernization.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Database Migration and Modernization.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Database Migration and Modernization</h5>
@@ -283,7 +283,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/IT Consultation.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/IT Consultation.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">IT Consultation</h5>
@@ -295,7 +295,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Business Analysis.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Business Analysis.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Business Analysis</h5>
@@ -307,7 +307,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Solution Architect.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Solution Architect.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">solution Architecture</h5>
@@ -319,7 +319,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Artificial Intelligence.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Artificial Intelligence.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Artificial Intelligence</h5>
@@ -331,7 +331,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Integration architecture.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Integration architecture.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Integration architecture</h5>
@@ -343,7 +343,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Cloud Solution Consultation.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Cloud Solution Consultation.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Cloud Solution Consultation</h5>
@@ -355,7 +355,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/E-Commerce Consultation.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/E-Commerce Consultation.webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">E-Commerce Consultation</h5>
@@ -367,7 +367,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Data analytics services (1).png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Data analytics services (1).webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Data Analytics Services</h5>
@@ -379,7 +379,7 @@
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Digital Marketing services (1).png') }}" alt="">
+                                    <img src="{{ asset('assets/images/Digital Marketing services (1).webp') }}" alt="">
 
                                 </div>
                                 <h5 class="mb-3">Digital Marketing Services</h5>
