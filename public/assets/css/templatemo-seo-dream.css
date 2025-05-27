@@ -378,7 +378,7 @@ header
 
 .header-area {
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -389,6 +389,7 @@ header
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
   -ms-transition: all .5s ease 0s;
+  
 }
 
 .header-area .main-nav {
