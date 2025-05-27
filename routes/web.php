@@ -37,3 +37,6 @@ Route::get('/xight', function () {
 Route::get('/xpert', function () {
     return view('../portofolio/xpert');
 });
+Route::get('/trial', function () {
+    return view('/trial');
+});
