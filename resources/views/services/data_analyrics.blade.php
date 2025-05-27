@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-5 col-md-12 challange_img">
                 <div class="challange_img_inner">
-                    <img class="img-fluid" src="{{ asset('assets/images/new.png')}}" alt="">
+                    <img class="img-fluid" src="{{ asset('assets/images/Data analytics services.webp')}}" alt="">
                 </div>
             </div>
         </div>
