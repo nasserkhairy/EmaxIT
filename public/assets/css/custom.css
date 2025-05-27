@@ -202,7 +202,7 @@
     background-color:#fff;
     /* background-color: rgba(194, 192, 189, 0.086); */
     backdrop-filter: blur(20px);
-    border-radius: 50% 0 50% 0;
+    border-radius: 50% 1 50% 0;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4), 0 10px 25px rgba(0, 0, 0, 0.3) !important;
 }
 
