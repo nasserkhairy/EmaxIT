@@ -145,11 +145,6 @@
         </div>
 
     </section><!-- /Stats Section -->
-
-
-
-
-
 <!-- Services Section -->
     <div class="container-fluid bg-light py-5">
         <div class="container py-5 mt-5">
@@ -173,7 +168,7 @@
                                 <h5 class="mb-3">Application Modernization</h5>
                                 <p>Legacy systems slow you down. At EmaxIT International, we help enterprises modernize outdated
                                      applications—turning them into agile, secure, cloud-native solutions built for scale and innovation.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="/customSD/#application">Read More</a>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill" href="/customSD">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
