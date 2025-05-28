@@ -144,7 +144,20 @@
 .fab {
     color: #fff;
 }
-
+.btn{
+    background-color: transparent !important;
+    color: #ff8700 !important;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 1px ;
+}
+.btn:hover {
+    color: #ff8700 !important;
+    background-color: black !important;
+    text-decoration: underline !important;
+    font-size: 21px !important;
+}
 .address {
     color: #ff8700 !important;
     font-weight: 600;
@@ -171,7 +184,7 @@
                     </a>
                     <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                       
-                        <div class="d-flex pt-2 mt-3">
+                        <div class="d-flex pt-2 mt-3 ">
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://www.tiktok.com/@emaxit.international" target="_blank"><i
                                     class="fab fa-tiktok fa-1x"></i></a>
