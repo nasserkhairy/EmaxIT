@@ -167,7 +167,7 @@
                     
                     <a href="/" class=" mb-3" style="height: 80px; ">
                         <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt=""
-                            style=" height: 25%; margin-top: 20px; display: float; margin-left: -5px;">
+                            style=" height: 20%; margin-top: 20px; display: float; margin-left: -27px;">
                     </a>
                     <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                       
