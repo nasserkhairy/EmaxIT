@@ -16,9 +16,12 @@
 <style>
 /*** Footer ***/
 .footer {
-    background: url("{{ asset('assets/images/61769.jpg') }}") center center no-repeat;
+    background: url("{{ asset('assets/images/footer2.png') }}") center center no-repeat;
     background-size: cover;
     padding: -60px 0;
+
+    font-family: 'Poppins', sans-serif !important;
+
 
 }
 
@@ -33,7 +36,7 @@
     border: 1px solid rgb(191, 100, 47);
     border-radius: 40px;
     transition: .3s;
-    
+
 }
 
 .footer .btn.btn-social:hover {
@@ -45,10 +48,10 @@
     margin-bottom: 10px;
     padding: 0;
     text-align: left;
-    color:rgb(238, 116, 46);
+    color: rgb(237, 232, 230);
     font-weight: 400;
     transition: .3s;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'poppins', sans-serif !important;
 }
 
@@ -79,6 +82,9 @@
 
 .footer .copyright a:hover {
     color: #FFFFFF;
+    background: #ff8700;
+    border-radius: 5px;
+    padding: 0 5px;
 }
 
 .footer .footer-menu a {
@@ -130,9 +136,20 @@
 }
 
 .fa-tiktok {
-    color: #111111;
+    color: #fff;
 
-    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+
+}
+
+.fab {
+    color: #fff;
+}
+
+.address {
+    color: #ff8700 !important;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif !important;
 }
 </style>
 
@@ -147,82 +164,76 @@
 
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <!-- <a href="index.html" class="d-inline-block mb-3">
-                        <h1 class="text-white">AI<span class="text-primary">.</span>Tech</h1>
-                    </a> -->
-                    <a href="/" class=" mb-3" style="height: 85px; ">
+                    
+                    <a href="/" class=" mb-3" style="height: 80px; ">
                         <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt=""
-                            style=" height: 29%; margin-top: 20px; display: float; margin-left: -60px;">
+                            style=" height: 25%; margin-top: 20px; display: float; margin-left: -5px;">
                     </a>
                     <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                        <!-- <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p> -->
+                      
                         <div class="d-flex pt-2 mt-3">
                             <a class="btn btn-outline-warning btn-social"
-                                href="https://www.tiktok.com/@emaxit.international"><i
+                                href="https://www.tiktok.com/@emaxit.international" target="_blank"><i
                                     class="fab fa-tiktok fa-1x"></i></a>
                             <a class="btn btn-outline-warning btn-social"
-                                href="https://web.facebook.com/people/EmaxIT/100083792292682/"><i
+                                href="https://web.facebook.com/people/EmaxIT/100083792292682/ " target="_blank"><i
                                     class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://www.youtube.com/@EmaxITInternational"><i class="fab fa-youtube"></i></a>
 
                             <a class="btn btn-outline-warning btn-social"
-                                href="https://www.linkedin.com/company/emaxit-international/"><i
+                                href="https://www.linkedin.com/company/emaxit-international/ " target="_blank"><i
                                     class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-warning btn-social"
+                                href="https://www.linkedin.com/company/emaxit-international/ " target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
+
                     </div>
                 </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="address mb-4">Software Development</h5>
+                    <a class="btn btn-link" href="">Application Modernization</a>
+                    <a class="btn btn-link" href="">Mobile Development</a>
+                    <a class="btn btn-link" href="">Web Development</a>
+                    <a class="btn btn-link" href="">Microservices</a>
+                    <a class="btn btn-link" href="">Quality Assurance</a>
+                    <a class="btn btn-link" href="">DevOps Services</a>
+                    <a class="btn btn-link" href="">Solution Architecture</a>
+                    <a class="btn btn-link" href="">API Integration</a>
+                    <a class="btn btn-link" href="">Database Migration </a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="address mb-4">Consultation</h5>
+                    <a class="btn btn-link" href="">IT Consultation</a>
+                    <a class="btn btn-link" href="">Business Analysis</a>
+                    <a class="btn btn-link" href="">Solution Architecting</a>
+                    <a class="btn btn-link" href="">Artificial Intelligence</a>
+                    <a class="btn btn-link" href="">Cloud Solution Consultation</a>
+                    <a class="btn btn-link" href="">E-Commerce Consultation</a>
+                    <a class="btn btn-link" href="">Integration Architect</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="address mb-4">Data Analysis</h5>
+                    <a class="btn btn-link mb-3" href="">Data Analytics Services</a>
 
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <h5 class="text-dark mb-4">Popular Link</h5>
-                    <a class="btn btn-link" href="/about">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="/solutions">solutions</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Career</a>
+                    <h5 class="address mb-4 mt-4">Digital Marketing</h5>
+                    <a class="btn btn-link mb-2" href="">Digital Marketing Services</a>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="text-dark mb-4">Our Services</h5>
-                    <a class="btn btn-link" href="">Robotic Automation</a>
-                    <a class="btn btn-link" href="">Machine learning</a>
-                    <a class="btn btn-link" href="">Predictive Analysis</a>
-                    <a class="btn btn-link" href="">Data Science</a>
-                    <a class="btn btn-link" href="">Robot Technology</a>
-                    <a class="btn btn-link" href="">Data Science</a>
-                    <a class="btn btn-link" href="">Robot Technology</a>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="text-dark mb-4">Our Services</h5>
-                    <a class="btn btn-link" href="">Robotic Automation</a>
-                    <a class="btn btn-link" href="">Machine learning</a>
-                    <a class="btn btn-link" href="">Predictive Analysis</a>
-                    <a class="btn btn-link" href="">Data Science</a>
-                    <a class="btn btn-link" href="">Robot Technology</a>
-                    <a class="btn btn-link" href="">Data Science</a>
-                    <a class="btn btn-link" href="">Robot Technology</a>
-                </div>
+
             </div>
         </div>
         <div class="container wow fadeIn" data-wow-delay="0.1s">
             <div class="copyright">
                 <div class="row">
-                    <div class="col-md-6 text-dark text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="text-dark border-bottom" href="#">EmaxIT Co.</a>, All Right Reserved.
+                    <div class="col-md-6 text-light text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="text-light border-bottom" href="#">EmaxIT Co.</a>, All Right Reserved 2025.
 
-                        Designed By <a class="text-info " href="https://www.linkedin.com/in/nasser-khairy/">nasser
-                            khairy</a>
+                        Designed By <a class="text-light " href="https://www.linkedin.com/in/nasser-khairy/">NASSER
+                            KHAIRY</a>
                     </div>
 
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FAQs</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
