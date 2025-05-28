@@ -165,9 +165,9 @@
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     
-                    <a href="/" class=" mb-3" style="height: 80px; ">
+                    <a href="/" class=" mb-3" style="">
                         <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt=""
-                            style=" height: 20%; margin-top: 20px; display: float; margin-left: -27px;">
+                            style=" height: 16%; margin-top: 20px; display: float; margin-left: -27px;">
                     </a>
                     <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                       
