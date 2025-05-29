@@ -144,7 +144,7 @@
 .fab {
     color: #fff;
 }
-.btn{
+/* .btn{
     background-color: transparent !important;
     color: #ff8700 !important;
     font-weight: 600;
@@ -157,7 +157,7 @@
     background-color: black !important;
     text-decoration: underline !important;
     font-size: 21px !important;
-}
+} */
 .address {
     color: #ff8700 !important;
     font-weight: 600;
@@ -198,7 +198,7 @@
                                 href="https://www.linkedin.com/company/emaxit-international/ " target="_blank"><i
                                     class="fab fa-linkedin-in"></i></a>
                             <a class="btn btn-outline-warning btn-social"
-                                href="https://www.linkedin.com/company/emaxit-international/ " target="_blank"><i
+                                href="https://www.instagram.com/emax.it/" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
                         </div>
 
