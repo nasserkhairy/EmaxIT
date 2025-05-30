@@ -816,6 +816,10 @@
 /* End About Us Section CSS */
 
 
+/*--------------------------------------------------------------
+        # Contact Section
+        --------------------------------------------------------------*/
+
 :root {
     --default-font: 'Poppins', sans-serif;
     --heading-font: 'Poppins', sans-serif;
@@ -966,9 +970,6 @@ h6 {
     }
 }
 
-/*--------------------------------------------------------------
-        # Contact Section
-        --------------------------------------------------------------*/
 .contact .info-item {
     background: color-mix(in srgb, var(--default-color), transparent 96%);
     padding: 30px;
