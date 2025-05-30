@@ -42,8 +42,8 @@
 .footer .btn.btn-social:hover {
     /* color: var(--primary); */
 }
-
 .footer .btn.btn-link {
+    text-align: center;
     display: block;
     margin-bottom: 10px;
     padding: 0;
@@ -54,17 +54,13 @@
     font-size: 17px;
     font-family: 'poppins', sans-serif !important;
 }
-
-
-
 .footer .btn.btn-link::before {
+    font-family: 'FontAwesome';
     position: relative;
     content: "\f105";
-    font-family: 'poppins', sans-serif !important;
     font-weight: 900;
     margin-right: 10px;
 }
-
 .footer .btn.btn-link:hover {
     letter-spacing: 1px;
     box-shadow: none;
@@ -177,35 +173,36 @@
 
             <div class="row g-5">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    
-                    <a href="/" class=" mb-3" style="">
-                        <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt=""
-                            style=" height: 16%; margin-top: 20px; display: float; margin-left: -27px;">
+                    <a href="/">
+                        <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt="" class="img-fluid">
                     </a>
-                    <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                      
-                        <div class="d-flex pt-2 mt-3 ">
+                    <div class="" data-wow-delay="0.3s">
+                        <div class="d-flex pt-2 mt-3 justify-content-center">
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://www.tiktok.com/@emaxit.international" target="_blank"><i
-                                    class="fab fa-tiktok fa-1x"></i></a>
+                                    class="fab fa-tiktok fa-1x"></i>
+                            </a>
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://web.facebook.com/people/EmaxIT/100083792292682/ " target="_blank"><i
-                                    class="fab fa-facebook-f"></i></a>
+                                    class="fab fa-facebook-f"></i>
+                            </a>
                             <a class="btn btn-outline-warning btn-social"
-                                href="https://www.youtube.com/@EmaxITInternational" target="_blank"><i class="fab fa-youtube"></i></a>
-
+                                href="https://www.youtube.com/@EmaxITInternational"><i class="fab fa-youtube"></i>
+                            </a>
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://www.linkedin.com/company/emaxit-international/ " target="_blank"><i
-                                    class="fab fa-linkedin-in"></i></a>
+                                    class="fab fa-linkedin-in"></i>
+                            </a>
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://www.instagram.com/emax.it/" target="_blank"><i
-                                    class="fab fa-instagram"></i></a>
+                                    class="fab fa-instagram"></i>
+                            </a>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="address mb-4">Software Development</h5>
+                    <h5 class="address mb-4 text-center text-md-start">Software Development</h5>
                     <a class="btn btn-link" href="">Application Modernization</a>
                     <a class="btn btn-link" href="">Mobile Development</a>
                     <a class="btn btn-link" href="">Web Development</a>
@@ -217,7 +214,7 @@
                     <a class="btn btn-link" href="">Database Migration </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="address mb-4">Consultation</h5>
+                    <h5 class="address mb-4 text-center text-md-start">Consultation</h5>
                     <a class="btn btn-link" href="">IT Consultation</a>
                     <a class="btn btn-link" href="">Business Analysis</a>
                     <a class="btn btn-link" href="">Solution Architecting</a>
@@ -227,13 +224,12 @@
                     <a class="btn btn-link" href="">Integration Architect</a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <h5 class="address mb-4">Data Analysis</h5>
+                    <h5 class="address mb-4 text-center text-md-start">Data Analysis</h5>
                     <a class="btn btn-link mb-3" href="">Data Analytics Services</a>
 
-                    <h5 class="address mb-4 mt-4">Digital Marketing</h5>
+                    <h5 class="address mb-4 mt-4 text-center text-md-start">Digital Marketing</h5>
                     <a class="btn btn-link mb-2" href="">Digital Marketing Services</a>
                 </div>
-
             </div>
         </div>
         <div class="container wow fadeIn" data-wow-delay="0.1s">
