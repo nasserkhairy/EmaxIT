@@ -30,35 +30,47 @@
                     Send a message to</p>
                 <div class="row gy-4">
                     <div class="col-md-6">
-                        <div class="info-item  text-center" data-aos="fade" data-aos-delay="200">
-                            <i class="bi bi-people"></i>
-                            <h3>Sales Team</h3>
+                        <a href="mailto:sales@emaxit.com?subject=Sales%20Inquiry">
+                            <div class="info-item  text-center" data-aos="fade" data-aos-delay="200">
+                                <i class="bi bi-people"></i>
+                                <h3>Sales Team</h3>
 
-                        </div>
+                            </div>
+                        </a>
+
                     </div><!-- End Info Item -->
 
                     <div class="col-md-6">
-                        <div class="info-item  text-center" data-aos="fade" data-aos-delay="300">
-                            <i class="bi bi-person-gear"></i>
-                            <h3>Support Team</h3>
+                        <a href="mailto:support@emaxit.com?subject=Asking%20for%20Support">
+                            <div class="info-item  text-center" data-aos="fade" data-aos-delay="300">
+                                <i class="bi bi-person-gear"></i>
+                                <h3>Support Team</h3>
 
-                        </div>
+                            </div>
+                        </a>
+
                     </div><!-- End Info Item -->
 
                     <div class="  col-md-6">
-                        <div class="  info-item text-center" data-aos="fade" data-aos-delay="400">
-                            <i class="bi bi-key-fill"></i>
-                            <h3>Licensing</h3>
+                        <a href="mailto:license@emaxit.com?subject=License%20Request">
+                            <div class="  info-item text-center" data-aos="fade" data-aos-delay="400">
+                                <i class="bi bi-key-fill"></i>
+                                <h3>Licensing</h3>
 
-                        </div>
+                            </div>
+                        </a>
+
                     </div><!-- End Info Item -->
 
                     <div class="col-md-6">
-                        <div class="info-item text-center" data-aos="fade" data-aos-delay="500">
-                            <i class="bi bi-envelope"></i>
-                            <h3>General</h3>
+                        <a href="mailto:info@emaxit.com?subject=General%20Message">
+                            <div class="info-item text-center" data-aos="fade" data-aos-delay="500">
+                                <i class="bi bi-envelope"></i>
+                                <h3>General</h3>
 
-                        </div>
+                            </div>
+                        </a>
+
                     </div><!-- End Info Item -->
 
                 </div>
