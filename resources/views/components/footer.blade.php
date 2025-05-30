@@ -203,15 +203,15 @@
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <h5 class="address mb-4 text-center text-md-start">Software Development</h5>
-                    <a class="btn btn-link" href="">Application Modernization</a>
-                    <a class="btn btn-link" href="">Mobile Development</a>
-                    <a class="btn btn-link" href="">Web Development</a>
-                    <a class="btn btn-link" href="">Microservices</a>
-                    <a class="btn btn-link" href="">Quality Assurance</a>
-                    <a class="btn btn-link" href="">DevOps Services</a>
-                    <a class="btn btn-link" href="">Solution Architecture</a>
-                    <a class="btn btn-link" href="">API Integration</a>
-                    <a class="btn btn-link" href="">Database Migration </a>
+                    <a class="btn btn-link sub-service-link" href="/customSD">Application Modernization</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="mobile">Mobile Development</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="web">Web Development</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="microservices">Microservices</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="quality">Quality Assurance</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="devOps">DevOps Services</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="solutionArchitecting">Solution Architecture</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="apiIntegration">API Integration</a>
+                    <a class="btn btn-link sub-service-link" href="/customSD" data-target="databaseMigration">Database Migration </a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <h5 class="address mb-4 text-center text-md-start">Consultation</h5>

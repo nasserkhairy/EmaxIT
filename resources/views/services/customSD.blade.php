@@ -691,6 +691,18 @@
 
 <x-footer></x-footer>
 <script src="{{ asset("assets/js/bootstrap.bundle.min.js") }}"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const targetId = sessionStorage.getItem('scrollToSection');
+        if (targetId) {
+            const el = document.getElementById(targetId);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+            }
+            sessionStorage.removeItem('scrollToSection');
+        }
+    });
+</script>
 </body>
 
 </html>
