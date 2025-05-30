@@ -95,7 +95,7 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
     {{-- /Contract Section --}}
     <!-- Stats Section -->
     <section id="stats" style="margin-top: 100px !important;" class="stats section accent-background mt-5">

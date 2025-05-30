@@ -2,11 +2,20 @@
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
+.service-container{
+    padding-top: 120px;
+}
+
+.sub-service{
+    /* margin-top: 40px;
+    padding-bottom: 60px; */
+    padding: 40px 0 60px 0;
+}
 .section-title {
     text-align: center;
     /* padding-bottom: 60px; */
     position: relative;
-    padding-top: 60px;
+    /* padding-top: 60px; */
   }
   .sub-service h2,
   .sub-service h3,
@@ -32,13 +41,6 @@
   }
   .main-title h1{
     color: #fff;
-  }
-  #application{
-    padding-top: 100px;
-  }
-  .sub-service{
-    padding-bottom: 60px;
-    /* box-shadow: 0 5px 5px -4px rgba(0, 0, 0, 0.2); */
   }
   .sub-service .about-img {
     position: relative;
