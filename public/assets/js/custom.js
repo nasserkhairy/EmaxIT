@@ -65,6 +65,12 @@
     // });
     $(document).ready(function() {
         $('#js-preloader').addClass('loaded');
+        document.querySelectorAll('.sub-service-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                const target = this.getAttribute('data-target');
+                sessionStorage.setItem('scrollToSection', target);
+            });
+        });
     });
 	// Window Resize Mobile Menu Fix
   function mobileNav() {

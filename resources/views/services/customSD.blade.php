@@ -690,7 +690,7 @@
 
 
 <x-footer></x-footer>
-<script src="{{ asset("assets/js/bootstrap.bundle.min.js") }}"></script>
+<x-scripts></x-scripts>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         const targetId = sessionStorage.getItem('scrollToSection');

@@ -488,7 +488,7 @@
         });
     </script>
     <script>
-                document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
             let dots = document.querySelectorAll('.dot');
             let slides = document.querySelectorAll('.slider-item');
             let currentIndex = 0;
@@ -527,17 +527,6 @@
                 behavior: 'smooth'
             });
         }, 6000); // كل 4 ثواني
-    </script>
-    <script>
-        new PureCounter();
-    </script>
-    <script>
-        document.querySelectorAll('.sub-service-link').forEach(link => {
-            link.addEventListener('click', function (e) {
-                const target = this.getAttribute('data-target');
-                sessionStorage.setItem('scrollToSection', target);
-            });
-        });
     </script>
 </body>
 
