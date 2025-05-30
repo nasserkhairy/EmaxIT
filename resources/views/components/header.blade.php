@@ -31,7 +31,7 @@
                             </ul>
                         </li>
                        
-                        <li class="scroll-to-section"><a href="#contact" class="<?php echo $_SERVER['REQUEST_URI'] == '/contact' ? 'active' : ''; ?>">Contact Us</a></li>
+                        <li class="scroll-to-section"><a href="/contact" class="<?php echo $_SERVER['REQUEST_URI'] == '/contact' ? 'active' : ''; ?>">Contact Us</a></li>
                         <li class="scroll-to-section">
                             <div class="main-blue-button"><a href="#contact">Request Demo</a></div>
                         </li>

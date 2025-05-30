@@ -11,6 +11,9 @@ Route::get('/about', function () {
 Route::get('/solutions', function () {
     return view('solutions');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 // Services
 Route::get('/customSD', function () {
