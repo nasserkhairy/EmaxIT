@@ -192,7 +192,7 @@
                                 href="https://web.facebook.com/people/EmaxIT/100083792292682/ " target="_blank"><i
                                     class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-warning btn-social"
-                                href="https://www.youtube.com/@EmaxITInternational"><i class="fab fa-youtube"></i></a>
+                                href="https://www.youtube.com/@EmaxITInternational" target="_blank"><i class="fab fa-youtube"></i></a>
 
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://www.linkedin.com/company/emaxit-international/ " target="_blank"><i
