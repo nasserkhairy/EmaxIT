@@ -32,6 +32,9 @@
   .section-title p {
     margin-bottom: 0;
   }
+  .sub-service-content{
+    min-height: 480px;
+  }
   /*--------------------------------------------------------------
   # About Section
   --------------------------------------------------------------*/
@@ -100,7 +103,8 @@
     font-size: 18px;
     font-weight: 400;
     color: #1a1f24;
-    padding: 12px 0;
+    /* after move intro p after h2 */
+    padding: 0 0 12px 0;
     margin-bottom: -2px;
     border-radius: 0;
     -webkit-border-radius: 0;

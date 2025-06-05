@@ -15,16 +15,16 @@
         <section class="sub-service" id="application">
             <div class="section-title" data-aos="fade-up">
                 <h2>Application Modernization</h2>
+                <p>Legacy systems slow you down? At EmaxIT International, we help enterprises modernize outdated applications—turning them into agile, secure, cloud-native solutions built for scale and innovation.</p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">Legacy systems slow you down? At EmaxIT International, we help enterprises modernize outdated applications—turning them into agile, secure, cloud-native solutions built for scale and innovation.</p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#about-tab1">What We Deliver</a></li>
@@ -83,21 +83,21 @@
         <section class="sub-service" id="mobile">
             <div class="section-title" data-aos="fade-up">
                 <h2>Mobile Development</h2>
+                <p>Build. Engage. Grow.
+                    At EmaxIT International, we craft mobile experiences that go beyond
+                    functionality—they inspire loyalty, streamline operations, and drive growth. Whether it's a
+                    native app, hybrid solution, or PWA, we deliver high-performance mobile products that users
+                    love.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="d-none col-lg-4 d-md-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">Build. Engage. Grow.
-                            At EmaxIT International, we craft mobile experiences that go beyond
-                            functionality—they inspire loyalty, streamline operations, and drive growth. Whether it's a
-                            native app, hybrid solution, or PWA, we deliver high-performance mobile products that users
-                            love.
-                        </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#mobile-tab1">What We Offer</a></li>
@@ -111,22 +111,25 @@
                                     <i class="bi bi-check2"></i>
                                     <h4>Cross-Platform Development</h4>
                                 </div>
-                                <p>Reach users on iOS, Android, and the web with efficient, scalable codebases using React Native, Flutter, or native technologies.</p>
+                                <p>Develop apps for iOS, Android, and web using scalable codebases like React Native or Flutter.</p>
+
                                 <div class="d-flex align-items-center mt-4">
                                     <i class="bi bi-check2"></i>
                                     <h4>UX/UI Design</h4>
                                 </div>
-                                <p>Design intuitive, elegant interfaces that boost engagement and ensure a frictionless user journey—from first tap to repeat use.</p>
+                                <p>Create clean, user-friendly interfaces for a seamless experience.</p>
+
                                 <div class="d-flex align-items-center mt-4">
                                     <i class="bi bi-check2"></i>
                                     <h4>Performance Optimization</h4>
                                 </div>
-                                <p>Build apps that are fast, reliable, and energy-efficient. Features include offline access, push notifications, and battery optimization.</p>
+                                <p>Ensure speed, reliability, offline access, and battery efficiency.</p>
+
                                 <div class="d-flex align-items-center mt-4">
                                     <i class="bi bi-check2"></i>
                                     <h4>Monetization Strategy</h4>
                                 </div>
-                                <p>Maximize ROI with smart revenue models: freemium, in-app purchases, subscriptions, or seamless ad integration.</p>
+                                <p>Increase revenue through subscriptions, in-app purchases, or ads.</p>
                             </div><!-- End Tab 1 Content -->
                             <div class="tab-pane fade" id="mobile-tab2">
                                 <div class="d-flex align-items-center mt-4">
@@ -156,20 +159,20 @@
         <section class="sub-service" id="web">
             <div class="section-title" data-aos="fade-up">
                 <h2>Web Development</h2>
+                <p>
+                    Your website is more than a digital brochure—it's the front line of your brand.
+                    At EmaxIT International, we design and build high-performing websites and
+                    web applications that drive engagement, simplify operations, and accelerate growth.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">
-                            Your website is more than a digital brochure—it's the front line of your brand.
-                            At EmaxIT International, we design and build high-performing websites and
-                            web applications that drive engagement, simplify operations, and accelerate growth.
-                        </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#web-tab1">What We Offer</a></li>
@@ -229,20 +232,20 @@
         <section class="sub-service" id="microservices">
             <div class="section-title" data-aos="fade-up">
                 <h2>Microservices Architecture</h2>
+                <p>
+                    Build smarter, faster, and more scalable applications.
+                    At EmaxIT International, we design microservices-based systems that break complex apps into independent, modular
+                    services—each handling a specific business function. The result? Better agility, resilience, and speed.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">
-                            Build smarter, faster, and more scalable applications.
-                            At EmaxIT International, we design microservices-based systems that break complex apps into independent, modular
-                            services—each handling a specific business function. The result? Better agility, resilience, and speed.
-                        </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#Microservices-tab1">Why Microservices?</a></li>
@@ -307,20 +310,20 @@
         <section class="sub-service" id="quality">
             <div class="section-title" data-aos="fade-up">
                 <h2>Quality Assurance (QA)</h2>
+                <p>
+                    Delivering reliable, secure, and user-friendly software starts with quality.
+                    At EmaxIT International, our QA services ensure your applications meet the highest standards before going
+                    live—minimizing risk and maximizing user satisfaction.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">
-                            Delivering reliable, secure, and user-friendly software starts with quality.
-                            At EmaxIT International, our QA services ensure your applications meet the highest standards before going
-                            live—minimizing risk and maximizing user satisfaction.
-                        </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#quality-tab1">What We Offer</a></li>
@@ -386,20 +389,20 @@
         <section class="sub-service" id="devOps">
             <div class="section-title" data-aos="fade-up">
                 <h2>DevOps Services</h2>
+                <p>
+                    Deliver better software—faster and safer.
+                    At EmaxIT International, our DevOps services accelerate delivery by unifying development and operations through
+                    automation, collaboration, and continuous improvement.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">
-                            Deliver better software—faster and safer.
-                            At EmaxIT International, our DevOps services accelerate delivery by unifying development and operations through
-                            automation, collaboration, and continuous improvement.
-                        </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#devOps-tab1">What We Offer</a></li>
@@ -463,21 +466,21 @@
         <section class="sub-service" id="solutionArchitecting">
             <div class="section-title" data-aos="fade-up">
                 <h2>Solution Architecting</h2>
+                <p>
+                    From Vision to Execution
+                    At EmaxIT International, our Solution Architecture services ensure your technology investments are aligned with
+                    your business goals. We design robust, scalable, and secure systems that solve real-world challenges and support
+                    long-term growth.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">
-                            From Vision to Execution
-                            At EmaxIT International, our Solution Architecture services ensure your technology investments are aligned with
-                            your business goals. We design robust, scalable, and secure systems that solve real-world challenges and support
-                            long-term growth.
-                                            </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#solutionArchitecting-tab1">What We Offer</a></li>
@@ -539,21 +542,21 @@
         <section class="sub-service" id="apiIntegration">
             <div class="section-title" data-aos="fade-up">
                 <h2>API Integration</h2>
+                <p>
+                    Seamless Connectivity, Smarter Systems
+                    At EmaxIT International, we specialize in integrating APIs that connect systems, streamline workflows, and
+                    unlock new possibilities. Whether it’s payment gateways, third-party platforms, or internal tools—our API
+                    solutions ensure your software ecosystem works as one.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">
-                            Seamless Connectivity, Smarter Systems
-                            At EmaxIT International, we specialize in integrating APIs that connect systems, streamline workflows, and
-                            unlock new possibilities. Whether it’s payment gateways, third-party platforms, or internal tools—our API
-                            solutions ensure your software ecosystem works as one.
-                                                                </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#apiIntegration-tab1">What We Offer</a></li>
@@ -613,21 +616,21 @@
         <section class="sub-service" id="databaseMigration">
             <div class="section-title" data-aos="fade-up">
                 <h2>Database Migration & Modernization</h2>
+                <p>
+                    Upgrade Performance. Unlock Possibilities.
+                    Outdated databases slow your business down. At EmaxIT International, we help you migrate and modernize your
+                    database systems to boost speed, reduce costs, and scale with confidence—whether you’re moving to the cloud or
+                    redesigning your data architecture.
+                </p>
             </div>
-            <div class="row g-0 align-items-stretch shadow-sm mt-4">
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/mob.png') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
                     <div class="contract-card w-100">
-                        <p class="pt-0 intro">
-                            Upgrade Performance. Unlock Possibilities.
-                            Outdated databases slow your business down. At EmaxIT International, we help you migrate and modernize your
-                            database systems to boost speed, reduce costs, and scale with confidence—whether you’re moving to the cloud or
-                            redesigning your data architecture.
-                        </p>
                         <!-- Tabs -->
                         <ul class="nav nav-pills mb-3">
                             <li><a class="nav-link active" data-bs-toggle="pill" href="#databaseMigration-tab1">Our Services</a></li>
@@ -641,24 +644,27 @@
                                     <i class="bi bi-check2"></i>
                                     <h4>Assessment & Planning</h4>
                                 </div>
-                                <p>We evaluate your current systems, assess risks, and define a migration strategy tailored to your business goals.</p>
+                                <p>We assess your systems, identify risks, and define a tailored migration strategy.</p>
+
                                 <div class="d-flex align-items-center mt-4">
                                     <i class="bi bi-check2"></i>
                                     <h4>Data Migration & ETL</h4>
                                 </div>
-                                <p>Securely extract, clean, and load your data using incremental migrations to reduce downtime and ensure data
-                                    integrity.</p>
+                                <p>Securely extract, transform, and load data with minimal downtime and high integrity.</p>
+
                                 <div class="d-flex align-items-center mt-4">
                                     <i class="bi bi-check2"></i>
                                     <h4>Schema Optimization</h4>
                                 </div>
-                                <p>Improve performance with indexing, normalization, partitioning, and query tuning.</p>
+                                <p>Boost performance through indexing, normalization, and query tuning.</p>
+
                                 <div class="d-flex align-items-center mt-4">
                                     <i class="bi bi-check2"></i>
                                     <h4>Security & Compliance</h4>
                                 </div>
-                                <p>Implement encryption, access control, and audit trails to meet standards like GDPR, HIPAA, and PCI-DSS.</p>
-                            </div><!-- End Tab 1 Content -->
+                                <p>Apply encryption, access control, and auditing to meet industry standards.</p>
+                            </div>
+
                             <div class="tab-pane fade" id="databaseMigration-tab2">
                                 <div class="d-flex align-items-center mt-4">
                                     <i class="bi bi-check2"></i>
