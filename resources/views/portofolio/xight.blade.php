@@ -58,6 +58,7 @@
       font-weight: 700;
       margin-bottom: 15px;
       line-height: 1.2;
+      color: #fff;
     }
 
     .header p {
@@ -65,6 +66,7 @@
       opacity: 0.95;
       max-width: 700px;
       margin: 0 auto;
+      color: #fff;
     }
 
     .section-spacing {
@@ -234,15 +236,19 @@
     .roi-section .stat-item .number {
       font-size: 3.5rem;
       font-weight: 700;
-      color: #ffc107; /* Yellow highlight */
+      color: #fff; /* Yellow highlight */
       margin-bottom: 5px;
     }
 
     .roi-section .stat-item .label {
       font-size: 1.1rem;
       opacity: 0.8;
+      color: #fff;
     }
 
+    .paragraph{
+        color:#fff;
+    }
     footer {
       text-align: center;
       padding: 30px;
@@ -422,7 +428,7 @@
   <div class="container section-spacing pt-0">
     <div class="roi-section">
       <h2 class="section-title">XightStudio ROI Summary</h2>
-      <p>XightStudio automates data analysis, saving time and reducing errors while enabling smarter, faster decisions. It scales with your business and empowers teams with easy access to insights.</p>
+      <p class="paragraph">XightStudio automates data analysis, saving time and reducing errors while enabling smarter, faster decisions. It scales with your business and empowers teams with easy access to insights.</p>
       <div class="stats">
         <div class="stat-item">
           <div class="number">50%</div>
@@ -437,7 +443,7 @@
           <div class="label">Quicker Decisions</div>
         </div>
       </div>
-      <p class="mt-4">Invest in **XightStudio** for efficient, data-driven growth and **increase profitability by finding hidden opportunities.**</p>
+      <p class="mt-4 paragraph">Invest in **XightStudio** for efficient, data-driven growth and **increase profitability by finding hidden opportunities.**</p>
     </div>
   </div>
 
