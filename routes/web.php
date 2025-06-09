@@ -41,5 +41,5 @@ Route::get('/xpert', function () {
     return view('../portofolio/xpert');
 });
 Route::get('/trial', function () {
-    return view('/trial');
+    return view('/solutions/trial');
 });
