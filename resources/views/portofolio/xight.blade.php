@@ -15,7 +15,7 @@
     }
 
     .header {
-      background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); /* Blue gradient for BI */
+      background:  linear-gradient(135deg,rgb(214, 165, 128) 0%, #FF9100 100%);
       color: white;
       padding: 60px 0;
       text-align: center;
@@ -74,7 +74,7 @@
     .section-title {
       font-size: 2.2rem;
       font-weight: 600;
-      color: #007bff; /* Blue for titles */
+      color: #ff8700; /* Blue for titles */
       margin-bottom: 40px;
       text-align: center;
       position: relative;
@@ -88,31 +88,39 @@
       transform: translateX(-50%);
       width: 80px;
       height: 4px;
-      background-color: #007bff; /* Blue underline */
+      background-color: #ff8700; /* Blue underline */
       border-radius: 2px;
     }
 
-    .card-feature {
+    /* Core Flexbox for rows containing cards to ensure equal height */
+    .row.equal-height-cards {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap to the next line */
+    }
+
+    /* Card styling for features */
+    .card-feature, .bi-concept-card {
       background-color: white;
       border-radius: 15px;
       padding: 30px;
       margin-bottom: 30px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.08);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      height: 100%;
+      /* Ensure column takes full height of its content, not limiting it */
+      height: auto; /* Changed from 100% to auto for better responsiveness with flex row */
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: flex-start; /* Aligns content to the top within the card */
     }
 
-    .card-feature:hover {
+    .card-feature:hover, .bi-concept-card:hover {
       transform: translateY(-8px);
       box-shadow: 0 15px 40px rgba(0,0,0,0.12);
     }
 
     .card-feature .icon {
       font-size: 3rem;
-      color: #007bff; /* Blue icons */
+      color: #ff8700; /* Blue icons */
       margin-bottom: 20px;
       text-align: center;
     }
@@ -128,8 +136,10 @@
       font-size: 1rem;
       line-height: 1.6;
       color: #6c757d;
+      flex-grow: 1; /* Allows the paragraph to take up available space, pushing other content down */
     }
 
+    /* List styling with checkmarks */
     .list-item {
       font-size: 1.05rem;
       margin-bottom: 12px;
@@ -143,26 +153,20 @@
       margin-right: 10px;
       font-size: 1.2rem;
       margin-top: 4px; /* Adjust for better alignment with text */
+      flex-shrink: 0; /* Prevents icon from shrinking on smaller screens */
     }
 
+    /* BI Concept Card specific styling */
     .bi-concept-card {
-        background-color: white;
-        border-radius: 15px;
-        padding: 40px;
-        margin-bottom: 30px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .bi-concept-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+        padding: 40px; /* Slightly more padding for these cards */
+        min-height: 380px; /* Ensures cards have a minimum height */
+        
     }
 
     .bi-concept-card h3 {
         font-size: 1.8rem;
         font-weight: 600;
-        color: #007bff;
+        color: #ff8700;
         margin-bottom: 15px;
         border-bottom: 2px solid #e9ecef;
         padding-bottom: 10px;
@@ -173,7 +177,7 @@
     .bi-concept-card h3 i {
         margin-right: 15px;
         font-size: 2.2rem;
-        color: #007bff;
+        color: #ff8700;
     }
 
     .bi-concept-card p {
@@ -249,7 +253,7 @@
     }
 
     /* Responsive adjustments */
-    @media (max-width: 768px) {
+    @media (max-width: 767.98px) {
       .header h1 {
         font-size: 2.5rem;
       }
@@ -271,6 +275,12 @@
       .bi-concept-card p {
         font-size: 0.95rem;
       }
+      /* Ensure full width on smaller screens for cards, Bootstrap columns usually handle this */
+      .card-feature, .bi-concept-card {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%; /* A little margin for very small screens, avoid 100% to prevent horizontal scroll */
+      }
     }
   </style>
 </head>
@@ -278,7 +288,7 @@
 
   <div class="header">
     <div class="container">
-      <img src="https://via.placeholder.com/180x100?text=XightStudio+BI+Logo" alt="XightStudio BI Logo" /> <h1>XightStudio BI Solution</h1>
+      <img src="{{ asset('assets/images/xight-studio-logo.png') }}" alt="XightStudio BI Logo" style="padding:10px;" /> <h1>XightStudio BI Solution</h1>
       <p>Transforming Raw Data into **Actionable Insights** for Smarter Business Decisions.</p>
     </div>
   </div>
@@ -293,7 +303,7 @@
         </div>
 
         <h2 class="section-title mt-5">Key Features of BI</h2>
-        <div class="row">
+        <div class="row equal-height-cards">
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card-feature">
               <div class="icon"><i class="fas fa-database"></i></div>
@@ -346,7 +356,7 @@
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <h2 class="section-title">How Business Intelligence Works</h2>
-        <div class="row">
+        <div class="row equal-height-cards">
             <div class="col-md-12 mb-4">
                 <div class="bi-concept-card">
                     <h3><i class="fas fa-chart-pie"></i> Core Functionality</h3>
@@ -412,7 +422,7 @@
   <div class="container section-spacing pt-0">
     <div class="roi-section">
       <h2 class="section-title">XightStudio ROI Summary</h2>
-      <p>XightStudio automates data analysis, significantly saving time and reducing errors while enabling smarter, faster decisions. It scales seamlessly with your business and empowers teams with easy access to crucial insights.</p>
+      <p>XightStudio automates data analysis, saving time and reducing errors while enabling smarter, faster decisions. It scales with your business and empowers teams with easy access to insights.</p>
       <div class="stats">
         <div class="stat-item">
           <div class="number">50%</div>
@@ -431,11 +441,9 @@
     </div>
   </div>
 
-<footer>
-  <div class="container">
-    <p>&copy; 2025 XightStudio. All rights reserved.</p>
-  </div>
-</footer>
+<x-footer>
+
+</x-footer>
 
 </body>
 </html>
