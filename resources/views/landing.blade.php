@@ -33,7 +33,7 @@
                         <h2><span></span> iVisionMT Suite</h2>
                         <p class="d-none d-md-block">Discover iVisionMT Suite, the comprehensive solution for
                             efficient workforce management</p>
-                        <a href="#" class="slider-btn d-none d-md-inline-block">Learn More</a>
+                        <a href="/ivision_demo" class="slider-btn d-none d-md-inline-block">Learn More</a>
                     </div>
                     <img src="{{ asset('assets/images/p1.webp') }}" style=" transform: scaleX(-1);" alt="Image 1">
                 </div>
@@ -51,7 +51,7 @@
                         <h2><span></span> Digital Transformation</h2>
                         <p class=" d-none d-md-block">Embrace the future with digital transformation! Make
                             your business more efficient and innovative</p>
-                        <a href="#" class="slider-btn  d-none d-md-inline-block">Learn More</a>
+                        <a href="/consultation" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
                     <img src="{{ asset('assets/images/p3.webp') }}" style=" transform: scaleX(1);" alt="Image 3">
                 </div>
@@ -61,7 +61,7 @@
                         <p class=" d-none d-md-block">
                             Gain accurate insights with Business Intelligence solutions.
                             Make data-driven decisions with confidence</p>
-                        <a href="#" class="slider-btn  d-none d-md-inline-block">Learn More</a>
+                        <a href="/consultation" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
                     <img src="{{ asset('assets/images/p2.webp') }}" style=" transform: scaleX(-1);" alt="Image 3">
                 </div>
