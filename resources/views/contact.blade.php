@@ -10,13 +10,7 @@
     <!-- Section Title -->
     <div class="container section-title  mb-5" data-aos="fade-up">
         <h2>Contact us</h2>
-        <p>We are committed to fostering meaningful connections with our clients — because your success is our priority.
-            Whether you're a first-time visitor, a potential customer exploring opportunities, or an existing client
-            seeking support, we’re here to guide you every step of the way.
-
-            Our dedicated teams are passionate about addressing your questions, building trust through transparent and
-            mutually beneficial relationships, and delivering exceptional after-sales service that ensures long-term
-            satisfaction. We take pride in offering reliable solutions tailored to meet your needs.</p>
+    
     </div><!-- End Section Title -->
 
     <div class="container mb-5" data-aos="fade-up" data-aos-delay="100">

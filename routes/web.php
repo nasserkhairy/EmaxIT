@@ -43,3 +43,9 @@ Route::get('/xpert', function () {
 Route::get('/trial', function () {
     return view('/solutions/trial');
 });
+Route::get('/ivision_demo', function () {
+    return view('../request_demo/ivision_demo');
+});
+Route::get('/xight_demo', function () {
+    return view('../request_demo/xight_demo');
+});

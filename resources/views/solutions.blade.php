@@ -11,7 +11,8 @@
         <div class="row no-gutters">
             <div class="col-md-12 portfolio-wrap animate__animated animate__fadeInUp" data-animate-duration="1s" data-animate-delay="0.2s">
                 <div class="row no-gutters align-items-center">
-                    <div class="col-md-5 img js-fullheight" style="background-image: url('{{ asset('assets/images/5795f7347868cee29ec2828b0b20f54b.png') }}'); background-size: contain; background-position: center; background-repeat: no-repeat;">
+                    <div class="col-md-5 img js-fullheight" style="">
+                        <img style="padding:30px;" src="{{ asset('assets/images/ivision-mt-logo.webp') }}" alt="">
                     </div>
                     <div class="col-md-7">
                         <div class="text pt-5 pl-0 pl-lg-5 pl-md-4">
@@ -19,7 +20,7 @@
                                 <div class="desc">
                                     <div class="top">
                                       
-                                        <h2 class="mb-4">iVisionMT TNA software</h2>
+                                        <h2 style="color:#ff8700;" class="mb-4">iVisionMT TNA software</h2>
                                     </div>
                                     <div class="absolute">
                                         <p>A brilliant workforce management software that is professional, accurate, flexible, comprehensive, reliable, and easy to use.</p>
@@ -34,7 +35,8 @@
 
             <div class="col-md-12 portfolio-wrap animate__animated animate__fadeInUp" data-animate-duration="1s" data-animate-delay="0.4s">
                 <div class="row no-gutters align-items-center">
-                    <div class="col-md-5 order-md-last img js-fullheight" style="background-image: url('{{ asset('assets/images/EMAXIT contract photo copy.jpg') }}');">
+                    <div class="col-md-5 order-md-last img js-fullheight" >
+                        <img style="padding:35px;" src="{{ asset('assets/images/xight-studio-logo.png') }}" alt="">
                     </div>
                     <div class="col-md-7">
                         <div class="text pt-5 pr-md-5">
@@ -42,7 +44,7 @@
                                 <div class="desc text-md-right">
                                     <div class="top">
                                         
-                                        <h2 class="mb-4">XIGHTSTUDIO</h2>
+                                        <h2  style="color:#ff8700;" class="mb-4">XIGHTSTUDIO</h2>
                                     </div>
                                     <div class="absolute">
                                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
@@ -55,7 +57,7 @@
                 </div>
             </div>
 
-            <div class="col-md-12 portfolio-wrap animate__animated animate__fadeInUp" data-animate-duration="1s" data-animate-delay="0.6s">
+            <!-- <div class="col-md-12 portfolio-wrap animate__animated animate__fadeInUp" data-animate-duration="1s" data-animate-delay="0.6s">
                 <div class="row no-gutters align-items-center">
                     <div class="col-md-5 img js-fullheight" style="background-image: url('{{ asset('assets/images/EMAXIT contract photo copy.jpg') }}');">
                     </div>
@@ -76,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
