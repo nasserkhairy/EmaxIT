@@ -1,97 +1,272 @@
-<x-head>
-</x-head>
-<x-header></x-header>
+<style>
+/* خلفية القسم */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
 
-<div id="about" class="about-us section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="left-image animate__animated animate__fadeInLeft" data-animate-duration="1.5s"
-                    data-animate-delay="0.8s">
-                    <img src="assets/images/p5.png" alt="About Us Image">
+.Section {
+    position: relative;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.Section--start {
+    padding-top: 136px;
+}
+
+.u-bg-cod-gray {
+    background-color: #fff;
+}
+
+/* النص */
+.Typography--heading1 {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.Typography--white {
+    color: #000;
+}
+
+.Typography--body3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.Typography--alto {
+    color: #000;
+}
+
+/* الهوامش */
+.u-mb-40 {
+    margin-bottom: 40px;
+}
+
+.u-mb-24 {
+    margin-bottom: 24px;
+}
+
+.u-mb-sm-8 {
+    margin-bottom: 8px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+/* قسم الإحصائيات */
+.Awards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 48px;
+    border-radius: 16px;
+    margin-left: 300px;
+}
+
+.u-bg-cerise-red {
+    background-color: #ff8700;
+    width: 60%;
+}
+
+.Awards__item {
+    flex: 1 1 calc(25% - 24px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Awards__img {
+    margin-bottom: 16px;
+}
+
+.d-flex {
+    display: flex;
+    gap: 4px;
+}
+
+/* عناوين وأرقام */
+.Typography--heading1custom {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.Typography--heading32custom {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.Typography--body16 {
+    font-size: 16px;
+}
+
+.Typography--body6custom {
+    font-size: 14px;
+}
+
+.u-opacity-8 {
+    opacity: 0.8;
+}
+
+.Awards__desc {
+    margin-top: 8px;
+}
+
+.Awards__plus {
+    margin-left: 4px;
+}
+
+@media (min-width: 768px) {
+    .Awards__item {
+        position: relative;
+    }
+
+    .Awards__item:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 10%;
+        height: 80%;
+        width: 1px;
+        background-color: rgba(255, 255, 255, 0.2);
+        /* خط أبيض شفاف */
+    }
+}
+</style>
+
+
+
+
+
+
+
+<body class="">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJCZ4R7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="Page">
+
+
+
+        <main>
+
+
+            <section class="Section Section--start u-bg-cod-gray">
+                <div class="Section-content">
+                    <div class="row u-mb-40 d-flex justify-content-between align-items-center" style="gap: 300px;">
+
+                        <div class="col-6 me-3">
+                            <h1 class="Typography Typography--heading1" style="color: #ff8700; margin-left:150px;">EmaxIT</h1>
+                        </div>
+
+                        <div class="col-6 " style="margin-top: 50px;">
+                            <p class="Typography Typography--body3 " >
+                                We are a software development company that builds custom web and mobile applications for
+                                businesses worldwide.
+                            </p>
+                            <p class="Typography Typography--body3" >
+                                Our team of over 200 experts specializes in fintech, eLearning, real estate, and more,
+                                delivering innovative solutions that drive success.
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
+
+    </div>
+
+
+    <div class="Awards  u-bg-cerise-red">
+        <div class="Awards__item">
+            <div class="Awards__img Awards__img--rating d-flex">
+                <img alt="star" width="64" height="64" src="{{ asset('assets/images/client reviews.png') }}" />
             </div>
-            <div class="col-lg-6 align-self-center animate__animated animate__fadeInRight" data-animate-duration="1s"
-                data-animate-delay="0.5s">
-                <div class="section-heading">
-                    <h6>About Us</h6>
-                    <h2>Top <em>marketing</em> agency & consult your website <span>with us</span></h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="about-item">
-                            <h4>622</h4>
-                            <h6>Projects </h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="about-item">
-                            <h4>21</h4>
-                            <h6>Countries</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-4">
-                        <div class="about-item">
-                            <h4>450</h4>
-                            <h6>Clients</h6>
-                        </div>
-                    </div>
-                </div>
-                <p id="about-text">
-                    <a style="font-size:25px;color:#ff8700;" href="">EmaxIT</a>
-                    International Inc. is a rapidly growing software company that has established itself as a leader in
-                    the dynamic and ever-evolving field of enterprise technology solutions. Founded in 2000, the company
-                    has consistently pushed the boundaries of innovation, delivering cutting-edge solutions tailored to
-                    meet the diverse needs of businesses across industries. With a forward-thinking approach, EmaxIT
-                    International has positioned itself at the forefront of technological advancement, helping
-                    organizations harness the power of digital transformation to achieve their requirements and
-                    strategic goals.
-                    <br><br>
-                    At the heart of EmaxIT International's success lies its holistic and integrated approach to
-                    enterprise solutions. By combining state-of-the-art technology, comprehensive services, managed
-                    solutions, expert consultation, dedicated support, and customized training programs, the company
-                    empowers its clients to extend their operational capabilities and foster meaningful connections
-                    across the entire value chain. Whether it's streamlining internal processes, enhancing customer
-                    experiences, or driving collaboration among stakeholders, EmaxIT International provides the tools
-                    and expertise necessary to unlock new levels of efficiency and growth.
-                    <br><br><br><br>
-
-                </p>
-
+            <div class="Awards__title">
+                <h3 class="Typography Typography--heading1custom Typography--white">4.9</h3>
+                <span class="Typography Typography--body16 Typography--white u-opacity-8">Clutch
+                    rating</span>
             </div>
+            <span class="Awards__desc Typography Typography--body6custom Typography--white">based on 30+
+                client reviews</span>
         </div>
-        <div>
-            <p class="text-center" style="font-size: 1.8em; font-weight: bold; margin-top: 20px;">
-                Why Partner with EmaxIT International? </p>
-            <ul class="list-unstyled" style="margin-top: 20px; font-size: 1.2em;">
-                <li><strong>Strategic IT Leadership:</strong> Leverage our expertise to transform your business through
-                    data-driven, innovative solutions.</li>
-                <li><strong>Advanced Technological Frameworks:</strong> Deploy state-of-the-art systems that optimize
-                    performance and drive operational efficiency.</li>
-                <li><strong>Client-Centric Customization:</strong> Delivering bespoke strategies tailored to address the
-                    unique demands of your organization.</li>
-                <li><strong>Global Capabilities, Local Expertise:</strong> Combining international best practices with
-                    region-specific insights for seamless execution.</li>
-                <li><strong>Holistic IT Solutions:</strong> Comprehensive services spanning cloud infrastructure,
-                    cybersecurity, digital transformation, and beyond.</li>
-                <li><strong>Scalable Architectures for Growth:</strong> Future-proof systems designed to evolve
-                    alongside your expanding enterprise requirements.</li>
-                <li><strong>Uncompromising Security Protocols:</strong> Safeguard critical assets with enterprise-grade
-                    cybersecurity measures aligned with global standards.</li>
-                <li><strong>Proven Track Record of Excellence:</strong> A history of delivering measurable outcomes and
-                    fostering long-term client success.</li>
-            </ul>
-            <p class="text-center" style="font-size: 1.6em; font-weight: bold; margin-top: 20px;">
-                We empower organizations to achieve operational excellence and sustainable growth through strategic IT
-            innovation </p>
-        
-            </p>
+        <div class="Awards__item">
+            <div class="Awards__img  d-flex">
+                <img width="64" height="64" src="{{ asset('assets/images/are ready to recommend us.png') }}" />
+            </div>
+            <div class="Awards__title">
+                <h3 class="Typography Typography--heading1custom Typography--white"><span>97</span><span
+                        class="Typography--heading32custom">%</span></h3>
+                <span class="Typography Typography--body16 Typography--white u-opacity-8">of
+                    customers</span>
+            </div>
+            <span class="Awards__desc Typography Typography--body6custom Typography--white">are ready to
+                recommend us</span>
         </div>
-        <div class="main-blue-button text-center"><a href="#contact">Request Demo</a></div>
+        <div class="Awards__item">
+            <div class="Awards__img Awards__img--devs d-flex">
+                <img width="170" height="68" src="{{ asset('assets/images/degree in engineering.png') }}" />
+            </div>
+            <div class="Awards__title">
+                <h3 class="Typography Typography--heading1custom Typography--white">
+                    <span>100</span><span class="Typography--heading32custom">%</span>
+                </h3>
+                <span class="Typography Typography--body16 Typography--white u-opacity-8">of
+                    developers</span>
+            </div>
+            <span class="Awards__desc Typography Typography--body6custom Typography--white">have a
+                degree in engineering</span>
+        </div>
+        <div class="Awards__item">
+            <div class="Awards__img  d-flex">
+                <img width="64" height="64" src="{{ asset('assets/images/successfully.png') }}" />
+            </div>
+            <div class="Awards__title">
+                <h3 class="Typography Typography--heading1custom Typography--white">
+                    <span>600</span><span class="Typography--heading32custom Awards__plus">+</span>
+                </h3>
+                <span class="Typography Typography--body16 Typography--white u-opacity-8">projects</span>
+            </div>
+            <span class="Awards__desc Typography Typography--body6custom Typography--white">successfully
+                <br /> delivered</span>
+        </div>
+    </div>
+
+    </div>
+    </section>
+
+
+
+
+
+    </main>
+
 
 
     </div>
-</div>
-<x-scripts></x-scripts>
 
-<x-footer></x-footer>
+
+
+
+</body>
