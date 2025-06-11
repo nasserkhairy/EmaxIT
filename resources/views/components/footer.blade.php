@@ -187,7 +187,7 @@
                                     class="fab fa-facebook-f"></i>
                             </a>
                             <a class="btn btn-outline-warning btn-social"
-                                href="https://www.youtube.com/@EmaxITInternational"><i class="fab fa-youtube"></i>
+                                href="https://www.youtube.com/@EmaxITInternational" target="_blank"><i class="fab fa-youtube"></i>
                             </a>
                             <a class="btn btn-outline-warning btn-social"
                                 href="https://www.linkedin.com/company/emaxit-international/ " target="_blank"><i

@@ -37,9 +37,7 @@ Route::get('/ivisionmt', function () {
 Route::get('/xight', function () {
     return view('../portofolio/xight');
 });
-Route::get('/xpert', function () {
-    return view('../portofolio/xpert');
-});
+
 Route::get('/trial', function () {
     return view('/solutions/trial');
 });

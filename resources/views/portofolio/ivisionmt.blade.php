@@ -46,6 +46,7 @@
       margin-bottom: 25px;
       border-radius: 15px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      background-color: #fff;
     }
 
     .header h1 {
