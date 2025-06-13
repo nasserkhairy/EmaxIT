@@ -97,13 +97,7 @@
     }
 
     .Awards__img--devs img {
-<<<<<<< HEAD
         overflow: hidden
-=======
-        /* border-radius: 100%; */
-        overflow: hidden;
-        margin-left: 24px;
->>>>>>> 4b224aeee04a628d65c2aeb21e898a8d1839be4f
     }
 
     .Awards__img--devs img:not(:first-child) {

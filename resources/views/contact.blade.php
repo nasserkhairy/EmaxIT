@@ -1,16 +1,18 @@
-<x-head></x-head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <x-head></x-head>
+    <link rel="stylesheet" href="{{ asset("assets/bootstrap-icons/bootstrap-icons.css") }}">
+</head>
+<body class="bg-light">
 <x-header></x-header>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
-
-
 <!-- Contact Section -->
-<section id="contact" class="contact section" style="margin-top: 100px;">
-
+<section id="contact" class="contact section" style="padding-top: 150px">
     <!-- Section Title -->
     <div class="container section-title  mb-5" data-aos="fade-up">
         <h2>Contact us</h2>
-    
+
     </div><!-- End Section Title -->
 
     <div class="container mb-5" data-aos="fade-up" data-aos-delay="100">
@@ -19,7 +21,7 @@
 
             <div class="col-lg-6">
                 <p class=" text-center mb-4"
-                    style="color:#ff8700 ;font-size: 1.8em; font-weight: bold; margin-top: 10px;">
+                    style="color:#ff8700 ;font-size: 1.8em;margin-top: 10px;">
 
                     Send a message to</p>
                 <div class="row gy-4">
@@ -73,7 +75,7 @@
 
             <div class="col-lg-6">
                 <p class=" text-center mb-4"
-                    style="color:#ff8700 ;font-size: 1.8em; font-weight: bold; margin-top: 10px;">Contact us Form</p>
+                    style="color:#ff8700 ;font-size: 1.8em;margin-top: 10px;">Contact Us</p>
                 <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                     <div class="row gy-4">
 
@@ -112,3 +114,21 @@
 
 </section><!-- /Contact Section -->
 <x-footer></x-footer>
+<x-scripts></x-scripts>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const targetId = sessionStorage.getItem('scrollToSection');
+    if (targetId) {
+        const el = document.getElementById(targetId);
+        if (el) {
+            el.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        sessionStorage.removeItem('scrollToSection');
+    }
+});
+</script>
+</body>
+
+</html>
