@@ -73,7 +73,9 @@
         border-radius: 20px;
         display: flex
     }
-
+    .Awards img{
+        width: auto !important;
+    }
     @media (max-width: 767.98px) {
         .Awards {
             flex-direction: column
@@ -138,13 +140,13 @@
     }
 
     .Awards__item:not(:first-child) {
-        border-left: 1px solid #ff7800
+        border-left: 1px solid #fff
     }
 
     @media (max-width: 767.98px) {
         .Awards__item:not(:first-child) {
             border-left: 0;
-            border-top: 1px solid #ff7800
+            border-top: 1px solid #fff
         }
     }
 
@@ -576,7 +578,7 @@
             <div class="Section-content">
                 <!-- intro -->
                 <div class="row u-mb-40">
-                    <div class="col-md-4 col-12 u-mb-24">
+                    <div class="col-md-4 col-12 u-mb-24 d-flex justify-content-center align-items-center">
                         <h1 class="Typography Typography--heading1">EmaxIT</h1>
                     </div>
                     <div class="col-md-8 col-12">
@@ -604,11 +606,19 @@
                 </div>
 
                 <!-- awards -->
-                <div class="Awards  u-bg-cerise-red">
+                <div class="Awards  u-bg-cerise-red mt-5">
                     <div class="Awards__item">
                         <div class="Awards__img Awards__img--rating d-flex">
-                            <img alt="star" width="64" height="64"
-                                src="{{ asset('assets/images/client reviews.png') }}" />
+                            <img alt="star" width="36" height="36"
+                                src="{{ asset('assets/images/star1.svg') }}" />
+                                <img alt="star" width="36" height="36"
+                                src="{{ asset('assets/images/star1.svg') }}" />
+                                <img alt="star" width="36" height="36"
+                                src="{{ asset('assets/images/star1.svg') }}" />
+                                <img alt="star" width="36" height="36"
+                                src="{{ asset('assets/images/star1.svg') }}" />
+                                <img alt="star" width="36" height="36"
+                                src="{{ asset('assets/images/star2.svg') }}" />
 
                         </div>
                         <div class="Awards__title">
@@ -622,7 +632,7 @@
                     <div class="Awards__item">
                         <div class="Awards__img  d-flex">
                             <img width="64" height="64"
-                                src="{{ asset('assets/images/are ready to recommend us.png') }}" />
+                                src="{{ asset('assets/images/like.svg') }}" />
                         </div>
                         <div class="Awards__title">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>97</span><span
