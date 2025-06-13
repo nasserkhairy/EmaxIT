@@ -576,10 +576,10 @@
             <div class="Section-content">
                 <!-- intro -->
                 <div class="row u-mb-40">
-                    <div class="col-md-6 col-12 u-mb-24">
+                    <div class="col-md-4 col-12 u-mb-24">
                         <h1 class="Typography Typography--heading1">EmaxIT</h1>
                     </div>
-                    <div class="col-md-6 col-12">
+                    <div class="col-md-8 col-12">
                         <p class="Typography Typography--body3 u-mb-24 u-mb-sm-8">Founded in 2000, EmaxIT International
                             Inc. is a global leader in enterprise technology, offering tailored software, consulting,
                             and managed services. The company empowers businesses to embrace digital transformation by
