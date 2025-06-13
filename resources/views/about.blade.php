@@ -649,7 +649,7 @@
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img  d-flex">
-                            <img width="64" height="64" src="{{ asset('assets/images/successfully.png') }}" />
+                            <img width="64" height="64" src="{{ asset('assets/images/10.svg') }}" />
                         </div>
                         <div class="Awards__title">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>622</span><span
