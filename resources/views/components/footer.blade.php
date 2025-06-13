@@ -16,7 +16,7 @@
 <style>
 /*** Footer ***/
 .footer {
-    background: url("{{ asset('assets/images/footer2.png') }}") center center no-repeat;
+    background: url("{{ asset('assets/images/footer2.webp') }}") center center no-repeat;
     background-size: cover;
     padding: -60px 0;
 
