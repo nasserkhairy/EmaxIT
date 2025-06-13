@@ -18,5 +18,7 @@
 <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 <!-- Additional CSS Files -->
 <link rel="stylesheet" href="{{asset('assets/css/fontawesome.css')}}">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('assets/css/templatemo-seo-dream.css')}}">
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css')}}">
+<link rel="stylesheet" href="{{ asset("assets/bootstrap-icons/bootstrap-icons.css") }}">

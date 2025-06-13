@@ -1,237 +1,9 @@
-<x-head></x-head>
-<x-header></x-header>
-
-  <style>
-    body {
-      background-color: #f8f9fa;
-      font-family: 'Poppins', sans-serif;
-      color: #343a40;
-    }
-
-    .header {
-      background: linear-gradient(135deg,rgb(214, 165, 128) 0%, #FF9100 100%);
-      color: white;
-      padding: 60px 0;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-     
-    }
-
-    .header::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: rgba(255, 255, 255, 0.05);
-      transform: rotate(45deg);
-      animation: header-bg-animate 15s infinite linear;
-      z-index: 0;
-    }
-
-    @keyframes header-bg-animate {
-      0% { transform: rotate(45deg) translate(-10%, -10%); }
-      100% { transform: rotate(45deg) translate(10%, 10%); }
-    }
-
-    .header .container {
-      position: relative;
-      z-index: 1;
-    }
-
-    .header img {
-      width: 180px;
-      margin-bottom: 25px;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-      background-color: #fff;
-    }
-
-    .header h1 {
-      font-size: 3.5rem;
-      font-weight: 700;
-      margin-bottom: 15px;
-      line-height: 1.2;
-      color: #fff;
-    }
-
-    .header p {
-      font-size: 1.3rem;
-      opacity: 0.95;
-      max-width: 700px;
-      margin: 0 auto;
-      color: #fff;
-    }
-
-    .section-spacing {
-      padding: 60px 0;
-    }
-
-    .section-title {
-      font-size: 2.2rem;
-      font-weight: 600;
-      color: #FF6F00;
-      margin-bottom: 40px;
-      text-align: center;
-      position: relative;
-    }
-
-    .section-title::after {
-      content: '';
-      position: absolute;
-      left: 50%;
-      bottom: -10px;
-      transform: translateX(-50%);
-      width: 80px;
-      height: 4px;
-      background-color: #FF6F00;
-      border-radius: 2px;
-    }
-
-    .card-feature {
-      background-color: white;
-      border-radius: 15px;
-      padding: 30px;
-      margin-bottom: 30px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .card-feature:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 15px 40px rgba(0,0,0,0.12);
-    }
-
-    .card-feature .icon {
-      font-size: 3rem;
-      color: #FF6F00;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-    .card-feature h5 {
-      font-size: 1.4rem;
-      font-weight: 600;
-      margin-bottom: 15px;
-      color: #343a40;
-    }
-
-    .card-feature p {
-      font-size: 1rem;
-      line-height: 1.6;
-      color: #6c757d;
-    }
-
-    .list-item {
-      font-size: 1.05rem;
-      margin-bottom: 12px;
-      color: #495057;
-      display: flex;
-      align-items: center;
-    }
-
-    .list-item i {
-      color: #28a745; /* Green checkmark */
-      margin-right: 10px;
-      font-size: 1.2rem;
-    }
-
-    .roi-section {
-      background: linear-gradient(135deg, #333 0%, #555 100%);
-      color: white;
-      padding: 80px 0;
-      text-align: center;
-      border-radius: 15px;
-      margin-bottom: 30px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .roi-section h2 {
-      color: white;
-      margin-bottom: 30px;
-      position: relative;
-      z-index: 1;
-    }
-
-    .roi-section h2::after {
-        background-color: white;
-    }
-
-    .roi-section p {
-      font-size: 1.4rem;
-      max-width: 900px;
-      margin: 0 auto;
-      line-height: 1.8;
-      font-weight: 300;
-      position: relative;
-      z-index: 1;
-    }
-
-    .roi-section .stats {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 40px;
-      flex-wrap: wrap;
-    }
-
-    .roi-section .stat-item {
-      text-align: center;
-      margin: 20px;
-    }
-
-    .roi-section .stat-item .number {
-      font-size: 3.5rem;
-      font-weight: 700;
-      color:#fff; /* Yellow highlight */
-      margin-bottom: 5px;
-    }
-
-    .roi-section .stat-item .label {
-      font-size: 1.1rem;
-      opacity: 0.8;
-    }
-  
-    .paragraph{
-        color:#fff;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      background-color: #343a40;
-      color: white;
-      margin-top: 50px;
-      font-size: 0.95rem;
-    }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      .header h1 {
-        font-size: 2.5rem;
-      }
-      .header p {
-        font-size: 1rem;
-      }
-      .section-title {
-        font-size: 1.8rem;
-      }
-      .roi-section p {
-        font-size: 1.1rem;
-      }
-      .roi-section .stat-item .number {
-        font-size: 2.5rem;
-      }
-    }
-  </style>
-
-
+<html>
+    <head>
+        <x-head></x-head>
+    </head>
+    <body>
+        <x-header></x-header>
 
   <div class="header" style="margin-top: 110px;">
     <div class="container">
@@ -341,7 +113,7 @@
           <div class="label">Manager Hours Saved Weekly</div>
         </div>
       </div>
-      <p class="mt-4 paragraph">Beyond savings, iVisionMT boosts 
+      <p class="mt-4 paragraph">Beyond savings, iVisionMT boosts
         employee satisfaction, ensures robust compliance, and drives overall business growth.</p>
         <br>
                 <div class="main-blue-button"><a href="/ivision_demo">Request Demo</a></div>
@@ -349,4 +121,9 @@
   </div>
 
 <x-footer></x-footer>
+<x-scripts></x-scripts>
+    </body>
+</html>
+
+
 

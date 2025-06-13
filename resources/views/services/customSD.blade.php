@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <x-head></x-head>
-    <link rel="stylesheet" href="{{ asset("assets/bootstrap-icons/bootstrap-icons.css") }}">
 </head>
 <body class="bg-light">
 <x-header></x-header>
