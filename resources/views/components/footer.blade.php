@@ -229,6 +229,11 @@
 
                     <h5 class="address mb-4 mt-4 text-center text-md-start">Digital Marketing</h5>
                     <a class="btn btn-link mb-2" href="/digital_markting">Digital Marketing Services</a>
+
+                    <h5 class="address mb-4 mt-4 text-center text-md-start">Get Demos</h5>
+                    <a class="btn btn-link mb-2" href="/ivision_demo">Ivision Demo</a>
+                    <a class="btn btn-link mb-2" href="/xight_demo">xight Demo</a>
+
                 </div>
             </div>
         </div>
