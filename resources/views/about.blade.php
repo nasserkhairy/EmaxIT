@@ -622,12 +622,10 @@
 
                         </div>
                         <div class="Awards__title">
-                            <h3 class="Typography Typography--heading1custom Typography--white">4.9</h3>
-                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Clutch
-                                rating</span>
+                            <h3 class="Typography Typography--heading1custom Typography--white">1278</h3>
+                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Implementations</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">based on 30+
-                            client reviews</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Perfectly executed with precision and quality</span>
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img  d-flex">
@@ -635,13 +633,11 @@
                                 src="{{ asset('assets/images/like.svg') }}" />
                         </div>
                         <div class="Awards__title">
-                            <h3 class="Typography Typography--heading1custom Typography--white"><span>97</span><span
-                                    class="Typography--heading32custom">%</span></h3>
-                            <span class="Typography Typography--body16 Typography--white u-opacity-8">of
-                                customers</span>
+                            <h3 class="Typography Typography--heading1custom Typography--white"><span>450</span><span
+                                    class="Typography--heading32custom">+</span></h3>
+                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Clients</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">are ready to
-                            recommend us</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Proud to recommend our services</span>
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img Awards__img--devs d-flex">
@@ -655,25 +651,22 @@
                                 src="/packs/media/images/shared/dev_4-c89d328001451f18b6377adb49cabc81.jpg" />
                         </div>
                         <div class="Awards__title">
-                            <h3 class="Typography Typography--heading1custom Typography--white"><span>100</span><span
-                                    class="Typography--heading32custom">%</span></h3>
-                            <span class="Typography Typography--body16 Typography--white u-opacity-8">of
-                                developers</span>
+                            <h3 class="Typography Typography--heading1custom Typography--white"><span>21</span><span
+                                    class="Typography--heading32custom"></span></h3>
+                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Countries</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">have a degree in
-                            engineering</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Global <br> reach with proven success</span>
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img  d-flex">
-                            <img width="64" height="64" src="{{ asset('assets/images/successfully.png') }}" />
+                            <img width="64" height="64" src="{{ asset('assets/images/10.svg') }}" />
                         </div>
                         <div class="Awards__title">
-                            <h3 class="Typography Typography--heading1custom Typography--white"><span>600</span><span
+                            <h3 class="Typography Typography--heading1custom Typography--white"><span>622</span><span
                                     class="Typography--heading32custom Awards__plus">+</span></h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">projects</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">successfully
-                            <br /> delivered</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Successfully delivered across various industries</span>
                     </div>
                 </div>
             </div>
