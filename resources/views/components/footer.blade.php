@@ -215,20 +215,20 @@
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <h5 class="address mb-4 text-center text-md-start">Consultation</h5>
-                    <a class="btn btn-link" href="">IT Consultation</a>
-                    <a class="btn btn-link" href="">Business Analysis</a>
-                    <a class="btn btn-link" href="">Solution Architecting</a>
-                    <a class="btn btn-link" href="">Artificial Intelligence</a>
-                    <a class="btn btn-link" href="">Cloud Solution Consultation</a>
-                    <a class="btn btn-link" href="">E-Commerce Consultation</a>
-                    <a class="btn btn-link" href="">Integration Architect</a>
+                    <a class="btn btn-link sub-service-link" href="/consultation">IT Consultation</a>
+                    <a class="btn btn-link sub-service-link" href="/consultation" data-target="businessAnalysis">Business Analysis</a>
+                    <a class="btn btn-link sub-service-link" href="/consultation" data-target="solutionArchitecting">Solution Architecting</a>
+                    <a class="btn btn-link sub-service-link" href="/consultation" data-target="artificialIntelligence">Artificial Intelligence</a>
+                    <a class="btn btn-link sub-service-link" href="/consultation" data-target="cloudConsultation">Cloud Solution Consultation</a>
+                    <a class="btn btn-link sub-service-link" href="/consultation" data-target="ecommerce">E-Commerce Consultation</a>
+                    <a class="btn btn-link sub-service-link" href="/consultation" data-target="integrationArchitect">Integration Architect</a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <h5 class="address mb-4 text-center text-md-start">Data Analysis</h5>
-                    <a class="btn btn-link mb-3" href="">Data Analytics Services</a>
+                    <a class="btn btn-link mb-3" href="/data_analysis">Data Analytics Services</a>
 
                     <h5 class="address mb-4 mt-4 text-center text-md-start">Digital Marketing</h5>
-                    <a class="btn btn-link mb-2" href="">Digital Marketing Services</a>
+                    <a class="btn btn-link mb-2" href="/digital_markting">Digital Marketing Services</a>
                 </div>
             </div>
         </div>

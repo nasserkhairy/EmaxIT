@@ -20,7 +20,7 @@ Route::get('/customSD', function () {
     return view('../services/customSD');
 });
 
-Route::get('/data_analyrics', function () {
+Route::get('/data_analysis', function () {
     return view('..services/data_analyrics');
 });
 Route::get('/digital_markting', function () {

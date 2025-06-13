@@ -2,64 +2,106 @@
 <html lang="en">
 <head>
     <x-head></x-head>
+    <link rel="stylesheet" href="{{ asset("assets/bootstrap-icons/bootstrap-icons.css") }}">
 </head>
+<body class="bg-light">
 <x-header></x-header>
 
-<section class="challange_area">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="l_title text-center">
-
+<div class="service-container">
+    <div class="container">
+        <section class="sub-service" id="itConsultaion">
+            <div class="section-title" data-aos="fade-up">
                 <h2>Digital Marketing Services</h2>
+                <p>Reach. Engage. Convert.
+                    At EmaxIT International, we design data-driven digital marketing strategies that turn attention into action.
+                    From SEO and PPC to social media and e-mail marketing, we help brands grow, engage audiences, and maximize ROI.</p>
             </div>
-            <div class="col-lg-7 col-md-12">
-                <div class="challange_text_inner">
-                    <div
-                        style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 2px; text-align: justify;">
-                        <p>
-                            <strong>Reach. Engage. Convert.</strong><br>
-                            At <strong>EmaxIT International</strong>, we design data-driven digital marketing strategies
-                            that turn attention into action. From SEO and PPC to social media and email marketing, we
-                            help brands grow, engage audiences, and maximize ROI.
-                        </p>
+            <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
+                <div class="col-lg-4 d-flex">
+                    <div class="w-100 contract-img">
+                        <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion" class="img-fluid h-100">
+                    </div>
+                </div>
+                <div class="col-lg-8 d-flex">
+                    <div class="contract-card w-100">
+                        <!-- Tabs -->
+                        <ul class="nav nav-pills mb-3">
+                            <li><a class="nav-link active" data-bs-toggle="pill" href="#about-tab1">What We Offer</a></li>
+                            <li><a class="nav-link" data-bs-toggle="pill" href="#about-tab2">Real-World Impact</a></li>
+                            <li><a class="nav-link" data-bs-toggle="pill" href="#about-tab3">Why It Matters</a></li>
+                        </ul><!-- End Tabs -->
+                            <!-- Tab Content -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="about-tab1">
+                                <div class="d-flex align-items-center mt-4">
+                                    <i class="bi bi-check2"></i>
+                                    <h4>Search Engine Optimization (SEO)</h4>
+                                </div>
+                                <p>Boost your Google ranking for long-term growth.</p>
 
-                        <h3 style="margin-top: 20px; color: #000; font-weight:600;">What We Offer</h3>
-                        <ul>
-                            <li><strong>Search Engine Optimization (SEO):</strong> Be found where it matters. We
-                                optimize your website for top Google rankings and long-term traffic growth.</li>
-                            <li><strong>Pay-Per-Click (PPC) Advertising:</strong> Get instant visibility with targeted
-                                ads on Google, Facebook, and Instagram—designed to drive conversions, not just clicks.
-                            </li>
-                            <li><strong>Social Media Marketing:</strong> Build communities, foster engagement, and
-                                amplify your brand across platforms like Instagram, LinkedIn, and TikTok.</li>
-                            <li><strong>Email Marketing:</strong> Nurture leads and boost retention with personalized,
-                                automated campaigns that deliver real results.</li>
-                        </ul>
+                                <div class="d-flex align-items-center mt-4">
+                                    <i class="bi bi-check2"></i>
+                                    <h4>Pay-Per-Click (PPC) Advertising</h4>
+                                </div>
+                                <p>Drive conversions instantly with targeted ads on Google, Facebook, and Instagram—designed to drive conversions, not
+                                    just clicks.</p>
 
-                        <h3 style="margin-top: 20px; color: #000; font-weight:600;">Real-World Impact</h3>
-                        <ul>
-                            <li><strong>Bakery:</strong> Increased foot traffic by 40% after ranking #1 on Google for
-                                local keywords.</li>
-                            <li><strong>Travel Agency:</strong> Achieved 200% ROAS through PPC campaigns.</li>
-                            <li><strong>E-commerce Brand:</strong> Recovered 25% of abandoned carts via automated
-                                emails, boosting revenue by $50K/month.</li>
-                        </ul>
+                                <div class="d-flex align-items-center mt-4">
+                                    <i class="bi bi-check2"></i>
+                                    <h4>Social Media Marketing</h4>
+                                </div>
+                                <p>Grow your brand and engagement across platforms.</p>
 
-                        <h3 style="margin-top: 20px; color: #000;font-weight:600;">Why It Matters</h3>
-                        <p>
-                            Your customers are online—are you showing up where it counts? We help you connect with the
-                            right people, at the right time, with the right message.
-                        </p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <i class="bi bi-check2"></i>
+                                    <h4>E-mail Marketing</h4>
+                                </div>
+                                <p>Retain customers with automated, personalized emails.</p>
+                            </div><!-- End Tab 1 Content -->
+                            <div class="tab-pane fade" id="about-tab2">
+                                <div class="d-flex align-items-center mt-4">
+                                    <i class="bi bi-check2"></i>
+                                    <h4>Bakery</h4>
+                                </div>
+                                <p>Increased foot traffic by 40% after ranking #1 on Google for local keywords.</p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <i class="bi bi-check2"></i>
+                                    <h4>Travel Agency</h4>
+                                </div>
+                                <p>Achieved 200% ROAS through PPC campaigns.</p>
+                                <div class="d-flex align-items-center mt-4">
+                                    <i class="bi bi-check2"></i>
+                                    <h4>E-commerce Brand</h4>
+                                </div>
+                                <p>Recovered 25% of abandoned carts via automated e-mails, boosting revenue by $50K/month.</p>
+                            </div><!-- End Tab 2 Content -->
+                            <div class="tab-pane fade" id="about-tab3">
+                                <p>Your customers are online—are you showing up where it counts? We help you connect with the right people, at the
+                                    right time, with the right message.</p>
+                            </div><!-- End Tab 3 Content -->
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12 challange_img">
-                <div class="challange_img_inner">
-                    <img class="img-fluid" src="{{ asset('assets/images/Digital marketing services.webp')}}" alt="">
-                </div>
-            </div>
-        </div>
+        </section>
     </div>
-</section>
+</div>
+
 
 <x-footer></x-footer>
+<x-scripts></x-scripts>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const targetId = sessionStorage.getItem('scrollToSection');
+        if (targetId) {
+            const el = document.getElementById(targetId);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+            }
+            sessionStorage.removeItem('scrollToSection');
+        }
+    });
+</script>
+</body>
+</html>
+

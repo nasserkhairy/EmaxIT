@@ -25,12 +25,12 @@
                             </a>
                             <ul>
                               <li><a href="/customSD" class="<?php echo $_SERVER['REQUEST_URI'] == '/customSD' ? 'active' : ''; ?>">Software development</a></li>
-                              <li><a href="/data_analyrics" class="<?php echo $_SERVER['REQUEST_URI'] == '/data_analyrics' ? 'active' : ''; ?>">Data analytics</a></li>
+                              <li><a href="/data_analysis" class="<?php echo $_SERVER['REQUEST_URI'] == '/data_analysis' ? 'active' : ''; ?>">Data analysis</a></li>
                               <li><a href="/digital_markting" class="<?php echo $_SERVER['REQUEST_URI'] == '/digital_markting' ? 'active' : ''; ?>">Digital marketing</a></li>
                               <li><a href="/consultation" class="<?php echo $_SERVER['REQUEST_URI'] == '/consultation' ? 'active' : ''; ?>">Consultation</a></li>
                             </ul>
                         </li>
-                       
+
                         <li class="scroll-to-section"><a href="/contact" class="<?php echo $_SERVER['REQUEST_URI'] == '/contact' ? 'active' : ''; ?>">Contact Us</a></li>
                         <li class="scroll-to-section">
                             <div class="main-blue-button"><a href="/ivision_demo">Request Demo</a></div>
