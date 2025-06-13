@@ -589,6 +589,8 @@
                             helps organizations stay agile in a rapidly evolving market. With a strong foundation in
                             data-driven insights and scalable solutions, the company ensures clients achieve operational
                             excellence and competitive advantage across industries.</p>
+                    </div>
+                    <div class="col-12">
                         <p class="Typography Typography--body3">EmaxIT International builds long-term partnerships based
                             on trust, transparency, and collaboration. The company tailors its enterprise solutions to
                             fit the unique needs of regional and global markets. By adopting modern management
