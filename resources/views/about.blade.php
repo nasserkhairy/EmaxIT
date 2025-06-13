@@ -93,7 +93,7 @@
         /* margin-right: auto; */ 
         /* Removed fixed width and margin-left, will let Bootstrap's col-12 handle width */
         /* Max-width added to control width while keeping it centered by auto margins */
-        max-width: 1200px; /* Example max-width, adjust as needed */
+        max-width: 1300px; /* Example max-width, adjust as needed */
         margin: 0 auto; /* Center the awards section horizontally */
         height: 300px; /* Allow height to adjust based on content */
     }
@@ -133,9 +133,9 @@
             position: absolute;
             right: -12px; /* Half of the gap to center the line */
             top: 20%; /* Adjusted from 10% to look better */
-            height: 60%; /* Adjusted height */
-            width: 1px;
-            background-color: rgba(255, 255, 255, 0.2);
+            height: 90%; /* Adjusted height */
+            width: 2px;
+            background-color: rgb(255, 255, 255);
         }
     }
 
@@ -245,7 +245,10 @@
 
         <main>
             <section class="Section Section--start u-bg-cod-gray">
-                <div class="container"> <div class="row header-content-flex u-mb-40"> <div class="col-12 col-md-6"> <h1 class="Typography Typography--heading1 EmaxIT-heading">EmaxIT</h1>
+                <div class="container">
+                     <div class="row header-content-flex u-mb-40"> 
+                        <div class="col-12 col-md-6"> 
+                            <h1 class="Typography Typography--heading1 EmaxIT-heading">EmaxIT</h1>
                         </div>
 
                         <div class="col-12 col-md-6 text-content-column"> <p class="Typography Typography--body3 Typography--black u-mb-8">

@@ -235,7 +235,7 @@
 
   <div class="header" style="margin-top: 110px;">
     <div class="container">
-      <img src="{{ asset('assets/images/ivision-mt-logo.webp') }}" alt="iVisionMT Logo" style="padding:10px;" />
+      <img src="{{ asset('assets/images/ivision-mt-logo.webp') }}" alt="iVisionMT Logo" style="padding:30px;" />
       <h1>iVisionMT Suite</h1>
       <p>Your Partner for **Smart Workforce Management** and Peak Business Performance.</p>
     </div>
