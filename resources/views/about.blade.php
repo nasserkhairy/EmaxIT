@@ -152,39 +152,33 @@ body {
         width:100%
     }
 }
-
 @media (min-width: 768px) {
     .Awards--small .Awards__item {
         min-height:276px
     }
 }
-
 @media (min-width: 768px) {
     .Awards--small .Awards__img {
         height:36px;
         min-height: unset
     }
 }
-
 @media (min-width: 768px) {
     .Awards--small .Awards__img img {
         height:100%;
         width: auto
     }
 }
-
 @media (min-width: 768px) {
     .Awards--small .Awards__img--rating {
         height:28px
     }
 }
-
 @media (max-width: 991.98px) {
     .Awards--small .Awards__img--devs img:not(:first-child) {
         margin-left:-12px
     }
 }
-
 .Awards__plus {
     display: inline-block;
     transform: translateY(-9px);
@@ -193,8 +187,6 @@ body {
     -ms-transform: translateY(-9px);
     -o-transform: translateY(-9px);
 }
-
-
 .BorderedGroup--top {
     border-top: 1px solid transparent
 }
@@ -213,26 +205,22 @@ body {
     padding-top: 80px;
     position: relative
 }
-
 @media (max-width: 991.98px) {
     .Section {
         padding-bottom:60px;
         padding-top: 60px
     }
 }
-
 .Section--start {
     padding-bottom: 30px;
     padding-top: 212px
 }
-
 @media (max-width: 991.98px) {
     .Section--start {
         padding-bottom:10px;
         padding-top: 190px
     }
 }
-
 .Section-content {
     margin: 0 auto;
     max-width: 1300px;
@@ -244,56 +232,46 @@ body {
 .Section-content p{
     text-align: justify;
 }
-
 @media (max-width: 991.98px) {
     .Section-content {
         padding-left:20px;
         padding-right: 20px
     }
 }
-
 .Typography--alto {
     color: #cecece
 }
-
 .Typography--alto:-internal-autofill-selected,.Typography--alto:-webkit-autofill,.Typography--alto:-webkit-autofill:focus,.Typography--alto:-webkit-autofill:hover {
     -webkit-text-fill-color: #cecece
 }
 .Typography--white {
     color: #fff
 }
-
 .Typography--white:-internal-autofill-selected,.Typography--white:-webkit-autofill,.Typography--white:-webkit-autofill:focus,.Typography--white:-webkit-autofill:hover {
     -webkit-text-fill-color: #fff
 }
-
 .Typography--heading1 {
     font-size: 56px;
     line-height: 64px;
     font-weight: 700
 }
-
 @media (max-width: 991.98px) {
     .Typography--heading1 {
         font-size:36px;
         line-height: 44px
     }
 }
-
 .Typography--heading2 {
     font-size: 40px;
     line-height: 48px;
     font-weight: 700
 }
-
 @media (max-width: 991.98px) {
     .Typography--heading2 {
         font-size:28px;
         line-height: 36px
     }
 }
-
-
 .Typography--heading4 {
     font-size: 28px;
     line-height: 39px
@@ -323,7 +301,6 @@ body {
     line-height: 34px;
     font-weight: 400
 }
-
 @media (max-width: 991.98px) {
     .Typography--body3 {
         font-size:16px;
@@ -414,15 +391,12 @@ body {
         line-height: 26px
     }
 }
-
 @media (max-width: 767.98px) {
     .Typography--heading4 {
         font-size:22px;
         line-height: 26px
     }
 }
-
-
 .Typography--heading32custom {
     font-size: 32px;
     line-height: 44px;
@@ -673,8 +647,6 @@ body {
             </div>
         </section>
 </div>
-
-
 <x-footer></x-footer>
 <x-scripts></x-scripts>
 <script>
@@ -690,6 +662,5 @@ body {
     });
 </script>
 </body>
-
 </html>
 
