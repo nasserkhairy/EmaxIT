@@ -93,7 +93,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="d-none col-lg-4 d-md-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Mobile development edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Mobile development edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
@@ -168,7 +168,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Web development edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Web development edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
@@ -241,7 +241,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Micro services edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Micro services edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
@@ -319,7 +319,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Quality Assurance edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Quality Assurance edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
@@ -398,7 +398,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/DevOps Services edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/DevOps Services edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
@@ -476,7 +476,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Solution architecture edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Solution architecture edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
@@ -552,7 +552,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Api integration edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Api integration edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
@@ -626,7 +626,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Database migration and modernisation edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Database migration and modernisation edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">

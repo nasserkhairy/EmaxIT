@@ -19,7 +19,7 @@
             <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                 <div class="col-lg-4 d-flex">
                     <div class="w-100 contract-img">
-                        <img src="{{ asset('assets/images/services/Digital marketing services edit.jpg') }}" alt="Team Discussion" class="img-fluid h-100">
+                        <img src="{{ asset('assets/images/services/Digital marketing services edit.webp') }}" alt="Team Discussion" class="img-fluid h-100">
                     </div>
                 </div>
                 <div class="col-lg-8 d-flex">
