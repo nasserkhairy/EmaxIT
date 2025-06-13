@@ -97,7 +97,13 @@
     }
 
     .Awards__img--devs img {
+<<<<<<< HEAD
         overflow: hidden
+=======
+        /* border-radius: 100%; */
+        overflow: hidden;
+        margin-left: 24px;
+>>>>>>> 4b224aeee04a628d65c2aeb21e898a8d1839be4f
     }
 
     .Awards__img--devs img:not(:first-child) {
@@ -607,27 +613,18 @@
                 <!-- awards -->
                 <div class="Awards  u-bg-cerise-red mt-5">
                     <div class="Awards__item">
-                        <div class="Awards__img Awards__img--rating d-flex">
-                            <img alt="star" width="36" height="36"
-                                src="{{ asset('assets/images/star1.svg') }}" />
-                                <img alt="star" width="36" height="36"
-                                src="{{ asset('assets/images/star1.svg') }}" />
-                                <img alt="star" width="36" height="36"
-                                src="{{ asset('assets/images/star1.svg') }}" />
-                                <img alt="star" width="36" height="36"
-                                src="{{ asset('assets/images/star1.svg') }}" />
-                                <img alt="star" width="36" height="36"
-                                src="{{ asset('assets/images/star2.svg') }}" />
-
+                        <div class="Awards__img Awards__img--rating d-flex justify-content-center">
+                            <img alt="star" width="64" height="64"
+                                src="{{ asset('assets/images/client reviews.png') }}" />
                         </div>
-                        <div class="Awards__title">
+                        <div class="Awards__title text-center">
                             <h3 class="Typography Typography--heading1custom Typography--white">1278</h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">Implementations</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Perfectly executed with precision and quality</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Perfectly executed with precision and quality</span>
                     </div>
-                    <div class="Awards__item">
-                        <div class="Awards__img  d-flex">
+                    <div class="Awards__item text-center">
+                        <div class="Awards__img  d-flex justify-content-center">
                             <img width="64" height="64"
                                 src="{{ asset('assets/images/like.svg') }}" />
                         </div>
@@ -636,30 +633,30 @@
                                     class="Typography--heading32custom">+</span></h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">Clients</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Proud to recommend our services</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Proud to recommend our services</span>
                     </div>
                     <div class="Awards__item">
-                        <div class="Awards__img Awards__img--devs d-flex">
-                            <img width="58" height="58"
+                        <div class="Awards__img Awards__img--devs d-flex justify-content-center">
+                            <img width="84" height="68"
                                 src="{{ asset('assets/images/degree in engineering.png') }}" />
                         </div>
-                        <div class="Awards__title">
+                        <div class="Awards__title text-center">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>21</span><span
                                     class="Typography--heading32custom"></span></h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">Countries</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Global <br> reach with proven success</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Global <br> reach with proven <br> success</span>
                     </div>
                     <div class="Awards__item">
-                        <div class="Awards__img  d-flex">
+                        <div class="Awards__img  d-flex justify-content-center">
                             <img width="64" height="64" src="{{ asset('assets/images/10.svg') }}" />
                         </div>
-                        <div class="Awards__title">
+                        <div class="Awards__title text-center">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>622</span><span
                                     class="Typography--heading32custom Awards__plus">+</span></h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">projects</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white">Successfully delivered across various industries</span>
+                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Successfully delivered across various industries</span>
                     </div>
                 </div>
             </div>
