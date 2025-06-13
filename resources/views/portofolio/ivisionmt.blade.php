@@ -341,7 +341,10 @@
           <div class="label">Manager Hours Saved Weekly</div>
         </div>
       </div>
-      <p class="mt-4 paragraph">Beyond savings, iVisionMT boosts employee satisfaction, ensures robust compliance, and drives overall business growth.</p>
+      <p class="mt-4 paragraph">Beyond savings, iVisionMT boosts 
+        employee satisfaction, ensures robust compliance, and drives overall business growth.</p>
+        <br>
+                <div class="main-blue-button"><a href="ivision_demo">Request Demo</a></div>
     </div>
   </div>
 

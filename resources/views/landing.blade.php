@@ -33,7 +33,7 @@
                         <h2><span></span> iVisionMT Suite</h2>
                         <p class="d-none d-md-block">Discover iVisionMT Suite, the comprehensive solution for
                             efficient workforce management</p>
-                        <a href="/ivision_demo" class="slider-btn d-none d-md-inline-block">Learn More</a>
+                        <a href="/ivisionmt-suite-information" class="slider-btn d-none d-md-inline-block">Learn More</a>
                     </div>
                     <img src="{{ asset('assets/images/p1.webp') }}" style=" transform: scaleX(-1);" alt="Image 1">
                 </div>

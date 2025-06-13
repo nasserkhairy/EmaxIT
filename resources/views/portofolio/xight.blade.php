@@ -316,6 +316,7 @@ footer {
         max-width: 95%;
         /* A little margin for very small screens, avoid 100% to prevent horizontal scroll */
     }
+    
 }
 </style>
 
@@ -512,6 +513,8 @@ footer {
             </div>
             <p class="mt-4 paragraph">Invest in **XightStudio** for efficient, data-driven growth and **increase
                 profitability by finding hidden opportunities.**</p>
+                <br>
+                <div class="main-blue-button"><a href="/xight_demo">Request Demo</a></div>
         </div>
     </div>
 
