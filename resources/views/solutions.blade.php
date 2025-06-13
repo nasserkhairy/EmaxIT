@@ -14,7 +14,7 @@
                 data-animate-delay="0.2s">
                 <div class="row no-gutters align-items-center">
                     <div class="col-md-5 img js-fullheight" style="">
-                        <img style="padding:65px;" src="{{ asset('assets/images/ivision-mt-logo.webp') }}" alt="">
+                        <img style="padding:150px;" src="{{ asset('assets/images/ivision-mt-logo.webp') }}" alt="">
                     </div>
                     <div class="col-md-7">
                         <div class="text pt-5 pl-0 pl-lg-5 pl-md-4">
@@ -41,7 +41,7 @@
                 data-animate-delay="0.4s">
                 <div class="row no-gutters align-items-center">
                     <div class="col-md-5 order-md-last img js-fullheight">
-                        <img style="padding:65px;" src="{{ asset('assets/images/xight-studio-logo.png') }}" alt="">
+                        <img style="padding:150px;" src="{{ asset('assets/images/xight-studio-logo.png') }}" alt="">
                     </div>
                     <div class="col-md-7">
                         <div class="text pt-5 pr-md-5">

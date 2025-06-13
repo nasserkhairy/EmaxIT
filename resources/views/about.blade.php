@@ -201,8 +201,6 @@ body {
 .BorderedGroup--emperor {
     border-color: #4f4f4f
 }
-
-
 .Image {
     display: block;
     height: auto;
