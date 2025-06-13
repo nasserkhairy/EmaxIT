@@ -48,7 +48,7 @@
                 </div>
                 <div class="slider-item" id="slide-3">
                     <div class="slider-text ">
-                        <h2><span></span> Digital Transformation</h2>
+                        <h2><span></span> Digital Marketing</h2>
                         <p class=" d-none d-md-block">Embrace the future with digital transformation! Make
                             your business more efficient and innovative</p>
                         <a href="/consultation" class="slider-btn  d-none d-md-inline-block">Learn More</a>
