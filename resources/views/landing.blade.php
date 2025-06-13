@@ -42,7 +42,7 @@
                         <h2><span></span> IT Consulting</h2>
                         <p class=" d-none d-md-block">Leverage IT consulting to enhance your organization’s
                             performance and achieve your goals</p>
-                        <a href="#" class="slider-btn  d-none d-md-inline-block">Learn More</a>
+                        <a href="/consultation" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
                     <img src="{{ asset('assets/images/p4.webp') }}" style=" transform: scaleX(-1);" alt="Image 2">
                 </div>
@@ -51,7 +51,7 @@
                         <h2><span></span> Digital Marketing</h2>
                         <p class=" d-none d-md-block">Embrace the future with digital transformation! Make
                             your business more efficient and innovative</p>
-                        <a href="/consultation" class="slider-btn  d-none d-md-inline-block">Learn More</a>
+                        <a href="/digital_markting" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
                     <img src="{{ asset('assets/images/p3.webp') }}" style=" transform: scaleX(1);" alt="Image 3">
                 </div>
