@@ -97,7 +97,6 @@
     }
 
     .Awards__img--devs img {
-        border-radius: 100%;
         overflow: hidden
     }
 
@@ -642,13 +641,7 @@
                     <div class="Awards__item">
                         <div class="Awards__img Awards__img--devs d-flex">
                             <img width="58" height="58"
-                                src="{{ asset('assets/images/degree in engineering.png') }}" /><img width="58"
-                                height="58"
-                                src="/packs/media/images/shared/dev_2-6868150498f52b6d35adb440f6c8b100.jpg" /><img
-                                width="58" height="58"
-                                src="/packs/media/images/shared/dev_3-1e7ed454a9c80abc40085c692e01c6fc.jpg" /><img
-                                width="58" height="58"
-                                src="/packs/media/images/shared/dev_4-c89d328001451f18b6377adb49cabc81.jpg" />
+                                src="{{ asset('assets/images/degree in engineering.png') }}" />
                         </div>
                         <div class="Awards__title">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>21</span><span
