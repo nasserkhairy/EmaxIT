@@ -611,7 +611,7 @@
                 </div>
 
                 <!-- awards -->
-                <div class="Awards  u-bg-cerise-red mt-5">
+                <div class="Awards  u-bg-cerise-red mt-5 shadow-lg">
                     <div class="Awards__item">
                         <div class="Awards__img Awards__img--rating d-flex justify-content-center">
                             <img alt="star" width="64" height="64"

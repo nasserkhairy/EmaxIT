@@ -47,3 +47,6 @@ Route::get('/ivision_demo', function () {
 Route::get('/xight_demo', function () {
     return view('../request_demo/xight_demo');
 });
+Route::get('/ivisionmt-suite-information', function () {
+    return view('../information/ivisionmt-suite-information');
+});
