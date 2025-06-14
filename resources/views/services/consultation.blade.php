@@ -20,7 +20,7 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion"
+                            <img src="{{ asset('assets/images/services/IT Consultation edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="d-none col-lg-4 d-md-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion"
+                            <img src="{{ asset('assets/images/services/Business Analysis edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion"
+                            <img src="{{ asset('assets/images/services/Solution architecture edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
                         </div>
                     </div>
@@ -268,7 +268,7 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion"
+                            <img src="{{ asset('assets/images/services/Artificial Intelligence edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
                         </div>
                     </div>
@@ -354,7 +354,7 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion"
+                            <img src="{{ asset('assets/images/services/Cloud Solution Consultation edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
                         </div>
                     </div>
@@ -443,7 +443,7 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion"
+                            <img src="{{ asset('assets/images/services/E-Commerce Consultation edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
                         </div>
                     </div>
@@ -533,7 +533,7 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/Api integration.webp') }}" alt="Team Discussion"
+                            <img src="{{ asset('assets/images/services/Integration architecture edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
                         </div>
                     </div>
