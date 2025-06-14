@@ -1,8 +1,9 @@
 <html>
-    <head>
-        <x-head></x-head>
-    </head>
-    <x-header></x-header>
+
+<head>
+    <x-head></x-head>
+</head>
+<x-header></x-header>
 
 <body>
 
@@ -137,7 +138,7 @@
     <x-footer></x-footer>
 
     <script>
-    $(document).ready(function() {
+        $(document).ready(function() {
         // When a thumbnail is clicked, open the modal and set the image source
         $('.screenshot-thumbnail').on('click', function() {
             var imgSrc = $(this).data('img-src');
@@ -147,4 +148,5 @@
     });
     </script>
 </body>
+
 </html>

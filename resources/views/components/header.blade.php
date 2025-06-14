@@ -5,7 +5,8 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="/" class="logo nav-link">
-                        <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt="" style=" height: 35px; margin-top: 20px;">
+                        <img src="{{ asset('assets/images/emaxit _logo.png') }}" alt=""
+                            style=" height: 35px; margin-top: 20px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
@@ -14,31 +15,43 @@
                             <a href="/" class="<?php echo $_SERVER['REQUEST_URI'] == '/' ? 'active' : ''; ?>">Home</a>
                         </li>
                         <li class="scroll-to-section">
-                            <a href="/solutions" class="<?php echo $_SERVER['REQUEST_URI'] == '/solutions' ? 'active' : ''; ?>">Solutions</a>
+                            <a href="/solutions"
+                                class="<?php echo $_SERVER['REQUEST_URI'] == '/solutions' ? 'active' : ''; ?>">Solutions</a>
                         </li>
                         <li class="scroll-to-section">
-                            <a href="/about" class="<?php echo $_SERVER['REQUEST_URI'] == '/about' ? 'active' : ''; ?>">About Us</a>
+                            <a href="/about"
+                                class="<?php echo $_SERVER['REQUEST_URI'] == '/about' ? 'active' : ''; ?>">About Us</a>
                         </li>
                         <li class="submenu">
                             <a class="<?php echo $_SERVER['REQUEST_URI'] == '/services' ? 'active' : ''; ?>" href="#">
-                              Services
+                                Services
                             </a>
                             <ul>
-                              <li><a href="/customSD" class="<?php echo $_SERVER['REQUEST_URI'] == '/customSD' ? 'active' : ''; ?>">Software development</a></li>
-                              <li><a href="/data_analysis" class="<?php echo $_SERVER['REQUEST_URI'] == '/data_analysis' ? 'active' : ''; ?>">Data analysis</a></li>
-                              <li><a href="/digital_markting" class="<?php echo $_SERVER['REQUEST_URI'] == '/digital_markting' ? 'active' : ''; ?>">Digital marketing</a></li>
-                              <li><a href="/consultation" class="<?php echo $_SERVER['REQUEST_URI'] == '/consultation' ? 'active' : ''; ?>">Consultation</a></li>
+                                <li><a href="/customSD"
+                                        class="<?php echo $_SERVER['REQUEST_URI'] == '/customSD' ? 'active' : ''; ?>">Software
+                                        development</a></li>
+                                <li><a href="/data_analysis"
+                                        class="<?php echo $_SERVER['REQUEST_URI'] == '/data_analysis' ? 'active' : ''; ?>">Data
+                                        analysis</a></li>
+                                <li><a href="/digital_markting"
+                                        class="<?php echo $_SERVER['REQUEST_URI'] == '/digital_markting' ? 'active' : ''; ?>">Digital
+                                        marketing</a></li>
+                                <li><a href="/consultation"
+                                        class="<?php echo $_SERVER['REQUEST_URI'] == '/consultation' ? 'active' : ''; ?>">Consultation</a>
+                                </li>
                             </ul>
                         </li>
 
-                        <li class="scroll-to-section"><a href="/contact" class="<?php echo $_SERVER['REQUEST_URI'] == '/contact' ? 'active' : ''; ?>">Contact Us</a></li>
+                        <li class="scroll-to-section"><a href="/contact"
+                                class="<?php echo $_SERVER['REQUEST_URI'] == '/contact' ? 'active' : ''; ?>">Contact
+                                Us</a></li>
                         <li class="scroll-to-section">
                             <div class="main-blue-button"><a href="/ivision_demo">Request Demo</a></div>
                         </li>
                     </ul>
                     <a class='menu-trigger'>
 
-                        <span >Menu</span>
+                        <span>Menu</span>
 
                     </a>
                     <!-- ***** Menu End ***** -->

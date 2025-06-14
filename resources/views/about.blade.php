@@ -49,33 +49,38 @@
                         </div>
                         <div class="Awards__title text-center">
                             <h3 class="Typography Typography--heading1custom Typography--white">1278</h3>
-                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Implementations</span>
+                            <span
+                                class="Typography Typography--body16 Typography--white u-opacity-8">Implementations</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Perfectly executed with precision and quality</span>
+                        <span
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">Perfectly
+                            executed with precision and quality</span>
                     </div>
                     <div class="Awards__item text-center">
                         <div class="Awards__img  d-flex justify-content-center">
-                            <img width="64" height="64"
-                                src="{{ asset('assets/images/like.svg') }}" />
+                            <img width="64" height="64" src="{{ asset('assets/images/like.svg') }}" />
                         </div>
                         <div class="Awards__title">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>450</span><span
                                     class="Typography--heading32custom">+</span></h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">Clients</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Proud to recommend our services</span>
+                        <span
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">Proud
+                            to recommend our services</span>
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img Awards__img--devs d-flex justify-content-center">
-                            <img width="84" height="68"
-                                src="{{ asset('assets/images/degree in engineering.png') }}" />
+                            <img width="84" height="68" src="{{ asset('assets/images/degree in engineering.png') }}" />
                         </div>
                         <div class="Awards__title text-center">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>21</span><span
                                     class="Typography--heading32custom"></span></h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">Countries</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Global <br> reach with proven <br> success</span>
+                        <span
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">Global
+                            <br> reach with proven <br> success</span>
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img  d-flex justify-content-center">
@@ -86,7 +91,9 @@
                                     class="Typography--heading32custom Awards__plus">+</span></h3>
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">projects</span>
                         </div>
-                        <span class="Awards__desc Typography Typography--body6custom Typography--white text-center">Successfully delivered across various industries</span>
+                        <span
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">Successfully
+                            delivered across various industries</span>
                     </div>
                 </div>
             </div>
@@ -195,7 +202,7 @@
     <x-footer></x-footer>
     <x-scripts></x-scripts>
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function() {
         const targetId = sessionStorage.getItem('scrollToSection');
         if (targetId) {
             const el = document.getElementById(targetId);

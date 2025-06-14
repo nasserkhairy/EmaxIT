@@ -92,5 +92,5 @@
         </div>
     </div>
 </section>
-<x-scripts></x-scripts>
 <x-footer></x-footer>
+<x-scripts></x-scripts>

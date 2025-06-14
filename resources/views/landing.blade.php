@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preload" as="image" href="{{ asset('assets/images/world-map.webp') }}">
     <link rel="preload" as="image" href="{{ asset('assets/images/p1.webp') }}">
@@ -33,7 +34,8 @@
                         <h2><span></span> iVisionMT Suite</h2>
                         <p class="d-none d-md-block">Discover iVisionMT Suite, the comprehensive solution for
                             efficient workforce management</p>
-                        <a href="/ivisionmt-suite-information" class="slider-btn d-none d-md-inline-block">Learn More</a>
+                        <a href="/ivisionmt-suite-information" class="slider-btn d-none d-md-inline-block">Learn
+                            More</a>
                     </div>
                     <img src="{{ asset('assets/images/p1.webp') }}" style=" transform: scaleX(-1);" alt="Image 1">
                 </div>
@@ -78,22 +80,28 @@
     {{-- Contract Section --}}
     <section class="contract-section mt-5">
         <div class="container">
-          <div class="row g-0 align-items-stretch shadow-sm">
-            <div class="col-lg-6 d-flex">
-              <div class="contract-card w-100">
-                <h2>Starts with Your Smart Choices</h2>
-                <p>EmaxIT International Inc. is a leading software company that has earned its reputation as a trusted partner in the realm of enterprise technology solutions and services.</p><br>
-                <p>Since its founding in 2000, EmaxIT International has been at the forefront of innovation and professionalism, offering a comprehensive suite of services designed to help businesses thrive in an increasingly competitive digital world.</p><br>
-                <p>With expertise spanning a wide range of cutting-edge technologies and methodologies, EmaxIT delivers tailored solutions that empower organizations and businesses to achieve their strategic objectives, enhance operational efficiency, and drive growth.</p><br>
-                <a class="btn btn-readmore rounded-pill px-4" href="">About EmaxIT</a>
-              </div>
+            <div class="row g-0 align-items-stretch shadow-sm">
+                <div class="col-lg-6 d-flex">
+                    <div class="contract-card w-100">
+                        <h2>Starts with Your Smart Choices</h2>
+                        <p>EmaxIT International Inc. is a leading software company that has earned its reputation as a
+                            trusted partner in the realm of enterprise technology solutions and services.</p><br>
+                        <p>Since its founding in 2000, EmaxIT International has been at the forefront of innovation and
+                            professionalism, offering a comprehensive suite of services designed to help businesses
+                            thrive in an increasingly competitive digital world.</p><br>
+                        <p>With expertise spanning a wide range of cutting-edge technologies and methodologies, EmaxIT
+                            delivers tailored solutions that empower organizations and businesses to achieve their
+                            strategic objectives, enhance operational efficiency, and drive growth.</p><br>
+                        <a class="btn btn-readmore rounded-pill px-4" href="">About EmaxIT</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex">
+                    <div class="w-100 contract-img">
+                        <img src="{{ asset('assets/images/EMAXIT contract photo.webp') }}" alt="Team Discussion"
+                            class="img-fluid h-100">
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 d-flex">
-              <div class="w-100 contract-img">
-                <img src="{{ asset('assets/images/EMAXIT contract photo.webp') }}" alt="Team Discussion" class="img-fluid h-100">
-              </div>
-            </div>
-          </div>
         </div>
     </section>
     {{-- /Contract Section --}}
@@ -106,35 +114,40 @@
 
                 <div class="col-lg-2 col-md-6 offset-lg-1">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="21" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="21" data-purecounter-duration="1"
+                            class="purecounter"></span>
                         <p>Countries</p>
                     </div>
                 </div><!-- End Stats Item -->
 
                 <div class="col-lg-2 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="450" data-purecounter-duration="1"
+                            class="purecounter"></span>
                         <p>Clients</p>
                     </div>
                 </div><!-- End Stats Item -->
 
                 <div class="col-lg-2 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="622" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="622" data-purecounter-duration="1"
+                            class="purecounter"></span>
                         <p>Projects</p>
                     </div>
                 </div><!-- End Stats Item -->
 
                 <div class="col-lg-2 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span data-purecounter-start="0" data-purecounter-end="1278" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="1278" data-purecounter-duration="1"
+                            class="purecounter"></span>
                         <p>Implementations</p>
                     </div>
                 </div><!-- End Stats Item -->
 
                 <div class="col-lg-2 col-md-6">
                     <div class="stats-item text-center w-100 h-100">
-                        <span style="display: inline-block !important;" data-purecounter-start="0" data-purecounter-end="120" data-purecounter-duration="1" class="purecounter"></span>
+                        <span style="display: inline-block !important;" data-purecounter-start="0"
+                            data-purecounter-end="120" data-purecounter-duration="1" class="purecounter"></span>
                         <small style="color:#fff;  font-size:25px;">m+</small>
                         <p>Transactions</p>
                     </div>
@@ -145,12 +158,13 @@
         </div>
 
     </section><!-- /Stats Section -->
-<!-- Services Section -->
+    <!-- Services Section -->
     <div class="container-fluid bg-light py-5">
         <div class="container py-5 mt-5">
             <div class="row g-5 align-items-center">
                 <div class="col-xl-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div style="color: #ff8700 !important;" class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
+                    <div style="color: #ff8700 !important;"
+                        class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
                     <h1 class="mb-4">Our Excellent AI Solutions for Your Business</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
                         amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
@@ -166,9 +180,12 @@
                                     <img src="{{ asset('assets/images/Application Modernization.webp') }}" alt="">
                                 </div>
                                 <h5 class="mb-3">Application Modernization</h5>
-                                <p>Legacy systems slow you down. At EmaxIT International, we help enterprises modernize outdated
-                                     applications—turning them into agile, secure, cloud-native solutions built for scale and innovation.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD">Read More</a>
+                                <p>Legacy systems slow you down. At EmaxIT International, we help enterprises modernize
+                                    outdated
+                                    applications—turning them into agile, secure, cloud-native solutions built for scale
+                                    and innovation.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD">Read
+                                    More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -180,9 +197,12 @@
                                 </div>
                                 <h5 class="mb-3">Mobile Development</h5>
                                 <p>Build. Engage. Grow.
-                                At EmaxIT International, we craft mobile experiences that go beyond functionality—they inspire loyalty, streamline operations, and drive growth.
-                                Whether it’s a native app, hybrid solution, or PWA, we deliver high-performance mobile products that users love.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="mobile">Read More</a>
+                                    At EmaxIT International, we craft mobile experiences that go beyond
+                                    functionality—they inspire loyalty, streamline operations, and drive growth.
+                                    Whether it’s a native app, hybrid solution, or PWA, we deliver high-performance
+                                    mobile products that users love.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="mobile">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -193,9 +213,12 @@
 
                                 </div>
                                 <h5 class="mb-3">Web Development</h5>
-                                <p>Your website is more than a digital brochure—it’s the front line of your brand. At EmaxIT International, we design and build high-performing
-                                    websites and web applications that drive engagement, simplify operations, and accelerate growth.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="web">Read More</a>
+                                <p>Your website is more than a digital brochure—it’s the front line of your brand. At
+                                    EmaxIT International, we design and build high-performing
+                                    websites and web applications that drive engagement, simplify operations, and
+                                    accelerate growth.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="web">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -207,9 +230,12 @@
                                 </div>
                                 <h5 class="mb-3">Microservices</h5>
                                 <p>Build smarter, faster, and more scalable applications.
-                                At EmaxIT International, we design microservices-based systems that break complex apps into independent,
-                                 modular services—each handling a specific business function. The result? Better agility, resilience, and speed.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="microservices">Read More</a>
+                                    At EmaxIT International, we design microservices-based systems that break complex
+                                    apps into independent,
+                                    modular services—each handling a specific business function. The result? Better
+                                    agility, resilience, and speed.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="microservices">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -221,21 +247,25 @@
                                 </div>
                                 <h5 class="mb-3">Quality Assurance</h5>
                                 <p>Delivering reliable, secure, and user-friendly software starts with quality.
-                                At EmaxIT International, our QA services ensure your applications meet the highest standards before going live—minimizing risk and maximizing user satisfaction.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="quality">Read More</a>
+                                    At EmaxIT International, our QA services ensure your applications meet the highest
+                                    standards before going live—minimizing risk and maximizing user satisfaction.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="quality">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                     <img src="{{ asset('assets/images/DevOps Services.webp') }}" alt="">
+                                    <img src="{{ asset('assets/images/DevOps Services.webp') }}" alt="">
                                 </div>
                                 <h5 class="mb-3">DevOps Services</h5>
                                 <p>Deliver better software—faster and safer.
-                                At EmaxIT International, our DevOps services accelerate delivery by unifying development and operations through automation,
-                                 collaboration, and continuous improvement.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="devOps">Read More</a>
+                                    At EmaxIT International, our DevOps services accelerate delivery by unifying
+                                    development and operations through automation,
+                                    collaboration, and continuous improvement.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="devOps">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
@@ -247,9 +277,11 @@
                                 </div>
                                 <h5 class="mb-3">Solution Architect</h5>
                                 <p>From Vision to Execution
-                                At EmaxIT International, our Solution Architecture services ensure your technology investments are aligned with your business goals. We design robust, scalable,
-                                and secure systems that solve real-world challenges and support long-term growth</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="solutionArchitecting">Read More</a>
+                                    At EmaxIT International, our Solution Architecture services ensure your technology
+                                    investments are aligned with your business goals. We design robust, scalable,
+                                    and secure systems that solve real-world challenges and support long-term growth</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="solutionArchitecting">Read More</a>
 
                             </div>
                         </div>
@@ -262,23 +294,30 @@
                                 </div>
                                 <h5 class="mb-3">API Integration</h5>
                                 <p>Seamless Connectivity, Smarter Systems
-                                At EmaxIT International, we specialize in integrating APIs that connect systems, streamline workflows, and unlock new possibilities. Whether it’s payment gateways, third-party platforms,
-                                or internal tools—our API solutions ensure your software ecosystem works as one.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="apiIntegration">Read More</a>
+                                    At EmaxIT International, we specialize in integrating APIs that connect systems,
+                                    streamline workflows, and unlock new possibilities. Whether it’s payment gateways,
+                                    third-party platforms,
+                                    or internal tools—our API solutions ensure your software ecosystem works as one.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="apiIntegration">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
                             <div class="service-item d-flex flex-column justify-content-center text-center rounded">
                                 <div class="service-icon btn-square">
                                     <!-- <i class="fa fa-home fa-2x"></i> -->
-                                    <img src="{{ asset('assets/images/Database Migration and Modernization.webp') }}" alt="">
+                                    <img src="{{ asset('assets/images/Database Migration and Modernization.webp') }}"
+                                        alt="">
 
                                 </div>
                                 <h5 class="mb-3">Database Migration and Modernization</h5>
                                 <p>Upgrade Performance. Unlock Possibilities.
-                                Outdated databases slow your business down. At EmaxIT International, we help you migrate and modernize your database systems to boost speed, reduce costs, and
-                                scale with confidence—whether you’re moving to the cloud or redesigning your data architecture.</p>
-                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD" data-target="databaseMigration">Read More</a>
+                                    Outdated databases slow your business down. At EmaxIT International, we help you
+                                    migrate and modernize your database systems to boost speed, reduce costs, and
+                                    scale with confidence—whether you’re moving to the cloud or redesigning your data
+                                    architecture.</p>
+                                <a class="btn px-3 mt-auto mx-auto rounded-pill sub-service-link" href="/customSD"
+                                    data-target="databaseMigration">Read More</a>
                             </div>
                         </div>
                         <div class="col-md-6 service-box">
