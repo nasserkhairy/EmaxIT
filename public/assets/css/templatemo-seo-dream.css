@@ -2667,27 +2667,14 @@ ivisionmt-portofilio Style
     transform: rotate(45deg);
     animation: header-bg-animate 15s infinite linear;
     z-index: 0;
-    -webkit-animation: header-bg-animate 15s infinite linear;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
 }
 
 @keyframes header-bg-animate {
     0% {
         transform: rotate(45deg) translate(-10%, -10%);
-        -webkit-transform: rotate(45deg) translate(-10%, -10%);
-        -moz-transform: rotate(45deg) translate(-10%, -10%);
-        -ms-transform: rotate(45deg) translate(-10%, -10%);
-        -o-transform: rotate(45deg) translate(-10%, -10%);
     }
     100% {
         transform: rotate(45deg) translate(10%, 10%);
-        -webkit-transform: rotate(45deg) translate(10%, 10%);
-        -moz-transform: rotate(45deg) translate(10%, 10%);
-        -ms-transform: rotate(45deg) translate(10%, 10%);
-        -o-transform: rotate(45deg) translate(10%, 10%);
     }
 }
 
@@ -2743,13 +2730,10 @@ ivisionmt-portofilio Style
     height: 4px;
     background-color: #ff6f00;
     border-radius: 2px;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
 }
 
-.card-feature {
+.card-feature,
+.bi-concept-card {
     background-color: white;
     border-radius: 15px;
     padding: 30px;
@@ -2760,19 +2744,12 @@ ivisionmt-portofilio Style
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    -webkit-transition: transform 0.3s ease, box-shadow 0.3s ease;
-    -moz-transition: transform 0.3s ease, box-shadow 0.3s ease;
-    -ms-transition: transform 0.3s ease, box-shadow 0.3s ease;
-    -o-transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-feature:hover {
+.card-feature:hover,
+.bi-concept-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
-    -webkit-transform: translateY(-8px);
-    -moz-transform: translateY(-8px);
-    -ms-transform: translateY(-8px);
-    -o-transform: translateY(-8px);
 }
 
 .card-feature .icon {
@@ -2892,3 +2869,84 @@ ivisionmt-portofilio Style
 xight-portofilio Style
 ---------------------------------------------
 */
+.row.equal-height-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-feature-xight,
+.card-feature-xight-start,
+.bi-concept-card{
+    height: auto;
+    justify-content: flex-start;
+}
+.card-feature-xight{
+    min-height: 300px;
+}
+
+
+.card-feature-xight p,
+.card-feature-xight-start p {
+    flex-grow: 1;
+}
+
+/* List styling with checkmarks */
+.list-item-xight {
+    align-items: flex-start;
+}
+
+.list-item-xight i {
+    margin-top: 4px;
+    flex-shrink: 0;
+}
+
+/* BI Concept Card specific styling */
+.bi-concept-card {
+    padding: 40px;
+    /* Slightly more padding for these cards */
+    min-height: 380px;
+    /* Ensures cards have a minimum height */
+
+}
+
+.bi-concept-card h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #ff8700;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.bi-concept-card h3 i {
+    margin-right: 15px;
+    font-size: 2.2rem;
+    color: #ff8700;
+}
+
+.bi-concept-card p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #495057;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .bi-concept-card h3 {
+        font-size: 1.5rem;
+    }
+    .bi-concept-card p {
+        font-size: 0.95rem;
+    }
+
+    /* Ensure full width on smaller screens for cards, Bootstrap columns usually handle this */
+    .card-feature-xight,
+    .card-feature-xight-start,
+    .bi-concept-card {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
+        /* A little margin for very small screens, avoid 100% to prevent horizontal scroll */
+    }
+}
