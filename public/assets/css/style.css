@@ -1402,7 +1402,7 @@ Stats Style
     font-family: var(--heading-font);
     font-size: 16px;
     font-weight: 700;
-    color: var(--default-color) ك;
+    color: #fff ;
 }
 
 .accent-background {
