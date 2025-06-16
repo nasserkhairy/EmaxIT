@@ -33,7 +33,7 @@
                 <div class="col-12 order-md-1 order-lg-2 mt-5">
                     <div class="form-container">
                         <h2 class="form-section-title">Request iVisionMT Demo</h2>
-                        <form action="" method="post" class="php-email-form">
+                        <form action="" method="get" class="php-email-form">
                             <div class="row gy-4">
                                 <div class="col-md-6">
                                     <input type="text" name="name" class="form-control" placeholder="Your Name"
@@ -116,6 +116,9 @@
                                     <button type="submit">Send Message</button>
                                 </div>
                             </div>
+                                @if (isset($_GET['name']))
+                                    <p class="text-center mt-3" style="color: #ff8700">Thank you for your message. It has been sent.</p>
+                                @endif
                         </form>
                     </div>
                 </div>
