@@ -38,9 +38,10 @@ Route::get('/xight', function () {
     return view('../portofolio/xight');
 });
 
-Route::get('/trial', function () {
-    return view('/solutions/trial');
-});
+// Route::get('/trial', function () {
+//     return view('/trial_cleaned');
+// });
+
 Route::get('/ivision_demo', function () {
     return view('../request_demo/ivision_demo');
 });

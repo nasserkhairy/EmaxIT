@@ -78,7 +78,7 @@
                             <span class="Typography Typography--body16 Typography--white u-opacity-8">Of Developers</span>
                         </div>
                         <span
-                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">have adegree in engineering</span>
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">have a degree in engineering</span>
                             </span>
                     </div>
                     <div class="Awards__item">

@@ -169,7 +169,7 @@
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
                         amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
                         clita duo justo et tempor eirmod magna dolore erat amet</p>
-                    <a class="btn btn-readmore rounded-pill px-4" href="">Read More</a>
+                    <a class="btn btn-readmore rounded-pill px-4" href="/customSD">Read More</a>
                 </div>
                 <div class="col-xl-7">
                     <div class="row g-4" id="services-container">
