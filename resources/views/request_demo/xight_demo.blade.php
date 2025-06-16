@@ -1,8 +1,4 @@
  <x-head></x-head>
-  <style>
-
-
-  </style>
  <x-header></x-header>
 <body>
 

@@ -63,7 +63,7 @@
                         <p class=" d-none d-md-block">
                             Gain accurate insights with Business Intelligence solutions.
                             Make data-driven decisions with confidence</p>
-                        <a href="/consultation" class="slider-btn  d-none d-md-inline-block">Learn More</a>
+                        <a href="/xight" class="slider-btn  d-none d-md-inline-block">Learn More</a>
                     </div>
                     <img src="{{ asset('assets/images/p2.webp') }}" style=" transform: scaleX(-1);" alt="Image 3">
                 </div>
