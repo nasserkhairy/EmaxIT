@@ -198,7 +198,11 @@
             </div>
             <p class="mt-4 paragraph">Invest in **XightStudio** for efficient, data-driven growth and **increase
                 profitability by finding hidden opportunities.**</p>
+                <br>
+
+                <div class="main-blue-button"><a href="/xight_demo">Request Demo</a></div>
         </div>
+        
     </div>
 
     <x-footer></x-footer>
