@@ -56,7 +56,7 @@
                                         placeholder="Company Name" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <select name="company_size" id="company_size" class="form-control">
+                                    <select name="company_size" id="company_size" class="form-select">
                                         <option value="" disabled selected>Company Size</option>
                                         <option value="1-50">1-50 Employees</option>
                                         <option value="51-500">51-500 Employees</option>
