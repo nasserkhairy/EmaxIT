@@ -126,7 +126,7 @@
                         <div class="col-md-6 col-sm-12 d-flex align-items-start u-mb-sm-16">
                             <img alt="icon" loading="lazy" class="Image Image--table-icon"
                                 src="{{ asset('assets/images/1.svg') }}" />
-                            <h4 class="Typography Typography--heading4">Respect</h4>
+                            <h4 class="ms-2 Typography Typography--heading4">Respect</h4>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <p class="Typography Typography--body2">
@@ -140,7 +140,7 @@
                         <div class="col-md-6 col-sm-12 d-flex align-items-start u-mb-sm-16">
                             <img alt="icon" loading="lazy" class="Image Image--table-icon"
                                 src="{{ asset('assets/images/2.svg') }}" />
-                            <h4 class="Typography Typography--heading4">Honesty</h4>
+                            <h4 class="ms-2 Typography Typography--heading4">Honesty</h4>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <p class="Typography Typography--body2">
@@ -155,7 +155,7 @@
                         <div class="col-md-6 col-sm-12 d-flex align-items-start u-mb-sm-16">
                             <img alt="icon" loading="lazy" class="Image Image--table-icon"
                                 src="{{ asset('assets/images/3.svg') }}" />
-                            <h4 class="Typography Typography--heading4">Freedom</h4>
+                            <h4 class="ms-2 Typography Typography--heading4">Freedom</h4>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <p class="Typography Typography--body2">
@@ -170,7 +170,7 @@
                         <div class="col-md-6 col-sm-12 d-flex align-items-start u-mb-sm-16">
                             <img alt="icon" loading="lazy" class="Image Image--table-icon"
                                 src="{{ asset('assets/images/4.svg') }}" />
-                            <h4 class="Typography Typography--heading4">Pride</h4>
+                            <h4 class="ms-2 Typography Typography--heading4">Pride</h4>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <p class="Typography Typography--body2">
@@ -185,7 +185,7 @@
                         <div class="col-md-6 col-sm-12 d-flex align-items-start u-mb-sm-16">
                             <img alt="icon" loading="lazy" class="Image Image--table-icon"
                                 src="{{ asset('assets/images/5.svg') }}" />
-                            <h4 class="Typography Typography--heading4">Erudition and broad <br /> knowledge</h4>
+                            <h4 class="ms-2 Typography Typography--heading4">Erudition and broad <br /> knowledge</h4>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <p class="Typography Typography--body2">
