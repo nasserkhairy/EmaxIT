@@ -14,7 +14,7 @@
                 <!-- intro -->
                 <div class="row u-mb-40">
                     <div class="col-md-4 col-12 u-mb-24 d-flex justify-content-center align-items-center">
-                        <h1 class="Typography Typography--heading1">EmaxIT</h1>
+                        <h1 class="Typography Typography--heading1" style="color: #ff8700">EmaxIT</h1>
                     </div>
                     <div class="col-md-8 col-12">
                         <p class="Typography Typography--body3 u-mb-24 u-mb-sm-8">Founded in 2000, EmaxIT International
