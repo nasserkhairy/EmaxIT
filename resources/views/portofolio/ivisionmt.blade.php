@@ -1,10 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <x-head></x-head>
 </head>
 
-<body>
+<body class="bg-light">
     <x-header></x-header>
 
     <div class="header" style="margin-top: 110px;">

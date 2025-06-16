@@ -163,7 +163,7 @@
         <div class="container py-5 mt-5">
             <div class="row g-5 align-items-center">
                 <div class="col-xl-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div style="color: #ff8700 !important;"
+                    <div style="color: #ff8700 !important;cursor: auto;"
                         class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
                     <h1 class="mb-4">Our Excellent AI Solutions for Your Business</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
