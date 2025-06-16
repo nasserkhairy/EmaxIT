@@ -66,7 +66,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <select name="data_source" id="data_source" class="form-control">
+                                    <select name="data_source" id="data_source" class="form-select">
                                         <option value="" disabled selected>Main Data Source</option>
                                         <option value="Oracle">Oracle</option>
                                         <option value="SQL Server">SQL Server</option>
@@ -80,7 +80,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-12">
-                                    <select name="industry" id="industry" class="form-control">
+                                    <select name="industry" id="industry" class="form-select">
                                         <option value="" disabled selected>Industry</option>
                                         <option value="Architechture">Architechture</option>
                                         <option value="Banking">Banking</option>
