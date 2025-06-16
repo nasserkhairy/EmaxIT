@@ -5,18 +5,18 @@
   </style>
  <x-header></x-header>
 <body>
- 
 
- 
+
+
   <div class="main-content-wrapper" style="margin-top: 100px;">
     <div class="container py-5">
       <div class="row justify-content-center align-items-stretch">
-       
-        <div class="col-md-10 info-column order-md-2 order-lg-1"> 
+
+        <div class="col-md-10 info-column order-md-2 order-lg-1">
           <div class="info-section">
               <img src="{{ asset('assets/images/xight-studio-logo.png') }}" alt="XightStudio Logo">
               <p>
-                
+
                   <br><br>
                   When you request <strong style="color:#ff8700;">XightStudio</strong> demo, there's absolutely no commitment or questions asked — we
                   will arrange for a friendly, personalized session designed to show you how our business
@@ -31,8 +31,8 @@
           </div>
         </div>
 
-       
-        <div class="col-md-10 form-column order-md-1 order-lg-2"> 
+
+        <div class="col-md-10 form-column order-md-1 order-lg-2">
           <div class="form-container">
               <h2 class="form-section-title">Request XightStudio Demo</h2>
               <form action="" method="post" class="php-email-form">
@@ -53,7 +53,7 @@
                           <input type="text" name="Company_Name" class="form-control" placeholder="Company Name" required>
                       </div>
                       <div class="col-md-6">
-                          <select name="company_size" id="company_size" class="form-control">
+                          <select name="company_size" id="company_size" class="form-select">
                               <option value="" disabled selected>Company Size</option>
                               <option value="1-50">1-50 Employees</option>
                               <option value="51-500">51-500 Employees</option>
@@ -114,7 +114,7 @@
               </form>
           </div>
         </div>
-        
+
       </div>
     </div>
   </div>
