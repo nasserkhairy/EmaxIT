@@ -9,7 +9,7 @@
     <div class="header" style="margin-top: 110px;">
         <div class="container">
             <img src="{{ asset('assets/images/xight-studio-logo.png') }}" alt="XightStudio BI Logo"
-                style="padding:10px;" />
+                style="padding:30px;" />
             <h1>XightStudio BI Solution</h1>
             <p>Transforming Raw Data into **Actionable Insights** for Smarter Business Decisions.</p>
         </div>

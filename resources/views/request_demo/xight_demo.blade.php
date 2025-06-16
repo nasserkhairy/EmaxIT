@@ -9,20 +9,19 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background-color: #f8f9fa; /* Light background */
+      background-color: #f8f9fa;
       color: #343a40;
-      
-      /* --- التعديلات الجديدة للـ Body --- */
+     
       display: flex;
-      flex-direction: column; /* يرتب المحتوى عمودياً */
-      min-height: 100vh; /* يضمن أن الـ Body يأخذ على الأقل ارتفاع الشاشة بالكامل */
-      /* --- نهاية التعديلات الجديدة للـ Body --- */
+      flex-direction: column;
+      min-height: 100vh; 
+     
 
-      padding: 0; /* إزالة الـ padding من الـ body للسماح للمحتوى بالتمدد */
-      margin: 0; /* إزالة الـ margin الافتراضي */
+      padding: 0; 
+      margin: 0; 
     }
 
-    /* --- التعديل الجديد للمحتوى الرئيسي لدفع الفوتر لأسفل --- */
+  
     .main-content-wrapper {
         flex-grow: 1; /* يجعل هذا العنصر يتمدد ليأخذ كل المساحة العمودية المتاحة */
         padding: 40px 0; /* نقل الـ padding الذي كان على الـ body هنا */
