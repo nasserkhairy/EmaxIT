@@ -100,7 +100,7 @@
                     </p>
                 </div>
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
-                    <div class="d-none col-lg-4 d-md-flex">
+                    <div class="col-lg-4 d-md-flex">
                         <div class="w-100 contract-img">
                             <img src="{{ asset('assets/images/services/Business Analysis edit.webp') }}" alt="Team Discussion"
                                 class="img-fluid h-100">
