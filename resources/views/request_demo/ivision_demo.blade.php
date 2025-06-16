@@ -32,28 +32,33 @@
                 <!-- Form Section on right for large, left for medium/small -->
                 <div class="col-12 order-md-1 order-lg-2 mt-5">
                     <div class="form-container">
+                        @if (isset($_GET['name']))
+                            <p class="text-center mt-3" style="color: #ff8700">Thank you for your message. It has been
+                                sent.</p>
+                            @endif
                         <h2 class="form-section-title">Request iVisionMT Demo</h2>
-                        <form action="" method="get" class="php-email-form">
+                        <form id="demoRequestForm" action="" method="get" class="php-email-form">
                             <div class="row gy-4">
                                 <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Your Name"
-                                        required>
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                                    <span class="msg-err" id="name-err">Please enter a valid name</span>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="job_title" class="form-control" placeholder="Job Title"
-                                        required>
+                                    <input type="text" name="job_title" class="form-control" placeholder="Job Title" required>
+                                    <span class="msg-err" id="job-err">Please enter a valid job title</span>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="Phone" class="form-control" placeholder="Your Phone"
-                                        required>
+                                    <input type="text" name="Phone" class="form-control" placeholder="Your Phone" required>
+                                    <span class="msg-err" id="phone-err">Please enter a valid phone</span>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email"
-                                        required>
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                    <span class="msg-err" id="email-err">Please enter a valid email</span>
                                 </div>
                                 <div class="col-md-12">
                                     <input type="text" name="Company_Name" class="form-control"
                                         placeholder="Company Name" required>
+                                        <span class="msg-err" id="company-err">Please enter a valid company name</span>
                                 </div>
                                 <div class="col-md-6">
                                     <select name="company_size" id="company_size" class="form-select">
@@ -111,14 +116,12 @@
                                 <div class="col-md-12">
                                     <textarea name="message" rows="6" class="form-control"
                                         placeholder="Preferred Date and Time / Any Notes" required></textarea>
+                                        <span class="msg-err" id="message-err">Please enter a valid message</span>
                                 </div>
                                 <div class="col-md-12 text-center mt-3">
                                     <button type="submit">Send Message</button>
                                 </div>
                             </div>
-                                @if (isset($_GET['name']))
-                                    <p class="text-center mt-3" style="color: #ff8700">Thank you for your message. It has been sent.</p>
-                                @endif
                         </form>
                     </div>
                 </div>
@@ -138,6 +141,73 @@
             sessionStorage.removeItem('scrollToSection');
         }
     });
+    </script>
+    <script>
+        const demoRequestForm = document.getElementById('demoRequestForm');
+        demoRequestForm.addEventListener('submit', function (e) {
+            const form = e.target;
+            let isValid = true;
+            let messages = [];
+
+            const name = form.name.value.trim();
+            const jobTitle = form.job_title.value.trim();
+            const phone = form.Phone.value.trim();
+            const email = form.email.value.trim();
+            const companyName = form.Company_Name.value.trim();
+            const companySize = form.company_size.value;
+            const dataSource = form.data_source.value;
+            const industry = form.industry.value;
+            const message = form.message.value.trim();
+            if (name.length < 2) {
+                isValid = false;
+                document.getElementById("name-err").style.display="inline";
+            }
+
+            if (jobTitle.length < 2) {
+                isValid = false;
+                document.getElementById("job-err").style.display="inline";
+            }
+
+            if (!/^\+?\d{7,15}$/.test(phone)) {
+                isValid = false;
+                document.getElementById("phone-err").style.display="inline";
+            }
+
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                isValid = false;
+                document.getElementById("email-err").style.display="inline";
+            }
+
+            if (companyName.length < 2) {
+                isValid = false;
+                document.getElementById("company-err").style.display="inline";
+            }
+
+            if (!companySize) {
+                isValid = false;
+                document.getElementById("company_size").style.border="2px solid #ff8700";
+            }
+
+            if (!dataSource) {
+                isValid = false;
+                document.getElementById("data_source").style.border="2px solid #ff8700";
+            }
+
+            if (!industry) {
+                isValid = false;
+                document.getElementById("industry").style.border="2px solid #ff8700";
+            }
+
+            if (message.length < 2) {
+                isValid = false;
+                messages.push("Please enter a valid message or note.");
+            }
+
+            if (!isValid) {
+                e.preventDefault();
+            }
+        });
+
     </script>
 </body>
 
