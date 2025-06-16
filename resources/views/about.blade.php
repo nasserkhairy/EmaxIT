@@ -48,43 +48,42 @@
                                 src="{{ asset('assets/images/client reviews.png') }}" />
                         </div>
                         <div class="Awards__title text-center">
-                            <h3 class="Typography Typography--heading1custom Typography--white">1278</h3>
+                            <h3 class="Typography Typography--heading1custom Typography--white">4.9</h3>
                             <span
-                                class="Typography Typography--body16 Typography--white u-opacity-8">Implementations</span>
+                                class="Typography Typography--body16 Typography--white u-opacity-8">Clutch Rating</span>
                         </div>
                         <span
-                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">Perfectly
-                            executed with precision and quality</span>
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">based on 30+ client reviews</span>
                     </div>
                     <div class="Awards__item text-center">
                         <div class="Awards__img  d-flex justify-content-center">
-                            <img width="64" height="64" src="{{ asset('assets/images/like.svg') }}" />
+                            <img width="64" height="64" src="{{ asset('assets/images/are ready to recommend us.png') }}" />
                         </div>
                         <div class="Awards__title">
-                            <h3 class="Typography Typography--heading1custom Typography--white"><span>450</span><span
-                                    class="Typography--heading32custom">+</span></h3>
-                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Clients</span>
+                            <h3 class="Typography Typography--heading1custom Typography--white"><span>97</span><span
+                                    class="Typography--heading32custom">%</span></h3>
+                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Of Customers</span>
                         </div>
                         <span
-                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">Proud
-                            to recommend our services</span>
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">are
+                           ready to recommend us</span>
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img Awards__img--devs d-flex justify-content-center">
                             <img width="84" height="68" src="{{ asset('assets/images/degree in engineering.png') }}" />
                         </div>
                         <div class="Awards__title text-center">
-                            <h3 class="Typography Typography--heading1custom Typography--white"><span>21</span><span
-                                    class="Typography--heading32custom"></span></h3>
-                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Countries</span>
+                            <h3 class="Typography Typography--heading1custom Typography--white"><span>100</span><span
+                                    class="Typography--heading32custom">%</span></h3>
+                            <span class="Typography Typography--body16 Typography--white u-opacity-8">Of Developers</span>
                         </div>
                         <span
-                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">Global
-                            <br> reach with proven <br> success</span>
+                            class="Awards__desc Typography Typography--body6custom Typography--white text-center">have adegree in engineering</span>
+                            </span>
                     </div>
                     <div class="Awards__item">
                         <div class="Awards__img  d-flex justify-content-center">
-                            <img width="64" height="64" src="{{ asset('assets/images/10.svg') }}" />
+                            <img width="64" height="64" src="{{ asset('assets/images/successfully.png') }}" />
                         </div>
                         <div class="Awards__title text-center">
                             <h3 class="Typography Typography--heading1custom Typography--white"><span>622</span><span
@@ -93,7 +92,7 @@
                         </div>
                         <span
                             class="Awards__desc Typography Typography--body6custom Typography--white text-center">Successfully
-                            delivered across various industries</span>
+                            delivered </span>
                     </div>
                 </div>
             </div>
