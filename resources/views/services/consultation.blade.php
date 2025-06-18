@@ -13,15 +13,15 @@
             <section class="sub-service" id="itConsultaion">
                 <div class="section-title" data-aos="fade-up">
                     <h2>IT Consultation</h2>
-                    <p>Legacy systems slow you down? At EmaxIT International, we help enterprises modernize outdated
-                        applications—turning them into agile, secure, cloud-native solutions built for scale and
-                        innovation.</p>
+                    <p>Modern challenges need smart strategies. At EmaxIT International, our IT consultation services
+                        empower businesses with the expert guidance they need to innovate, scale, and stay secure in a
+                        fast-changing digital world.</p>
                 </div>
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/services/IT Consultation edit.webp') }}" alt="Team Discussion"
-                                class="img-fluid h-100">
+                            <img src="{{ asset('assets/images/services/IT Consultation edit.webp') }}"
+                                alt="Team Discussion" class="img-fluid h-100">
                         </div>
                     </div>
                     <div class="col-lg-8 d-flex">
@@ -40,49 +40,61 @@
                                 <div class="tab-pane fade show active" id="about-tab1">
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Legacy to Cloud</h4>
+                                        <h4>Strategic Planning</h4>
                                     </div>
-                                    <p>Migrate legacy systems to AWS, Azure, or hybrid cloud environments.</p>
+                                    <p> Define IT goals, assess current gaps, and build actionable roadmaps with
+                                        cost-benefit and risk analysis.</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Modular Architecture</h4>
+                                        <h4>System Design & Implementation </h4>
                                     </div>
-                                    <p>Break monolithic apps into microservices for speed, flexibility, and fault
-                                        tolerance.</p>
+                                    <p>Architect scalable systems, select the right vendors, and manage full
+                                        implementation with post-launch support.</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Smarter Systems</h4>
+                                        <h4>Cybersecurity & Compliance</h4>
                                     </div>
-                                    <p>Add AI, machine learning, and real-time analytics to boost performance and
-                                        insights.</p>
+                                    <p>Build secure infrastructures with threat modeling, policy frameworks, and
+                                        compliance (HIPAA, GDPR, PCI-DSS).</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Stronger Security</h4>
+                                        <h4> Change Management</h4>
                                     </div>
-                                    <p>mbed zero-trust, encryption, and compliance by design (HIPAA, GDPR, etc.).</p>
+                                    <p>Drive adoption with stakeholder engagement, training, feedback loops, and
+                                        performance tracking.</p>
                                 </div><!-- End Tab 1 Content -->
                                 <div class="tab-pane fade" id="about-tab2">
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Retail</h4>
+                                        <h4>Logistics</h4>
                                     </div>
-                                    <p>Replacing batch processing with real-time inventory updates cut stockouts by 30%.
+                                    <p>IoT integration and cloud migration cut operational costs by 20%.
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Insurance</h4>
+                                        <h4>Retail</h4>
                                     </div>
-                                    <p>Migrating claims app to serverless reduced costs by 40% and boosted speed 5x.</p>
+                                    <p>Unified commerce platform boosted revenue by 35% and improved inventory accuracy
+                                        by 50%.</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
                                         <h4>Healthcare</h4>
                                     </div>
-                                    <p>Modernized patient portal passed HIPAA audits and slashed security incidents by
-                                        90%.</p>
+                                    <p>Modern patient system with AI diagnostics and telemedicine features reduced admin
+                                        tasks by 40% and improved satisfaction by 25%.</p>
+
+                                    <div class="d-flex align-items-center mt-4">
+                                        <i class="bi bi-check2"></i>
+                                        <h4> Insurance</h4>
+                                    </div>
+                                    <p>Claims app rollout saw 80% staff adoption, speeding up processing and customer
+                                        response.</p>
                                 </div><!-- End Tab 2 Content -->
+
                                 <div class="tab-pane fade" id="about-tab3">
-                                    <p>Application modernization isn’t just IT—it’s business evolution. Let us help you
-                                        build faster, scale smarter, and stay ahead.</p>
+                                    <p>IT consultations aren’t just about fixing problems—they’re about unlocking
+                                        potential. From roadmap to ROI, we guide your tech evolution every step of the
+                                        way.</p>
                                 </div><!-- End Tab 3 Content -->
                             </div>
                         </div>
@@ -102,8 +114,8 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-md-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/services/Business Analysis edit.webp') }}" alt="Team Discussion"
-                                class="img-fluid h-100">
+                            <img src="{{ asset('assets/images/services/Business Analysis edit.webp') }}"
+                                alt="Team Discussion" class="img-fluid h-100">
                         </div>
                     </div>
                     <div class="col-lg-8 d-flex">
@@ -186,8 +198,8 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/services/Solution architecture edit.webp') }}" alt="Team Discussion"
-                                class="img-fluid h-100">
+                            <img src="{{ asset('assets/images/services/Solution architecture edit.webp') }}"
+                                alt="Team Discussion" class="img-fluid h-100">
                         </div>
                     </div>
                     <div class="col-lg-8 d-flex">
@@ -268,8 +280,8 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/services/Artificial Intelligence edit.webp') }}" alt="Team Discussion"
-                                class="img-fluid h-100">
+                            <img src="{{ asset('assets/images/services/Artificial Intelligence edit.webp') }}"
+                                alt="Team Discussion" class="img-fluid h-100">
                         </div>
                     </div>
                     <div class="col-lg-8 d-flex">
@@ -354,8 +366,8 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/services/Cloud Solution Consultation edit.webp') }}" alt="Team Discussion"
-                                class="img-fluid h-100">
+                            <img src="{{ asset('assets/images/services/Cloud Solution Consultation edit.webp') }}"
+                                alt="Team Discussion" class="img-fluid h-100">
                         </div>
                     </div>
                     <div class="col-lg-8 d-flex">
@@ -443,8 +455,8 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/services/E-Commerce Consultation edit.webp') }}" alt="Team Discussion"
-                                class="img-fluid h-100">
+                            <img src="{{ asset('assets/images/services/E-Commerce Consultation edit.webp') }}"
+                                alt="Team Discussion" class="img-fluid h-100">
                         </div>
                     </div>
                     <div class="col-lg-8 d-flex">
@@ -533,8 +545,8 @@
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
                     <div class="col-lg-4 d-flex">
                         <div class="w-100 contract-img">
-                            <img src="{{ asset('assets/images/services/Integration architecture edit.webp') }}" alt="Team Discussion"
-                                class="img-fluid h-100">
+                            <img src="{{ asset('assets/images/services/Integration architecture edit.webp') }}"
+                                alt="Team Discussion" class="img-fluid h-100">
                         </div>
                     </div>
                     <div class="col-lg-8 d-flex">
@@ -612,12 +624,14 @@
     <x-footer></x-footer>
     <x-scripts></x-scripts>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         const targetId = sessionStorage.getItem('scrollToSection');
         if (targetId) {
             const el = document.getElementById(targetId);
             if (el) {
-                el.scrollIntoView({ behavior: 'smooth' });
+                el.scrollIntoView({
+                    behavior: 'smooth'
+                });
             }
             sessionStorage.removeItem('scrollToSection');
         }
