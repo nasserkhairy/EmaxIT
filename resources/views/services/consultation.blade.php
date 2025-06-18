@@ -88,12 +88,13 @@
                                     </p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Insurance</h4>
+                                        <h4>Retail</h4>
                                     </div>
                                     <p>Claims app rollout saw 80% staff adoption, speeding up processing and customer
                                         response.
                                     </p>
                                 </div><!-- End Tab 2 Content -->
+
                                 <div class="tab-pane fade" id="about-tab3">
                                     <p>IT consultations aren’t just about fixing problems—they’re about unlocking
                                         potential. From roadmap to ROI, we guide your tech evolution every
@@ -594,12 +595,14 @@
     <x-footer></x-footer>
     <x-scripts></x-scripts>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         const targetId = sessionStorage.getItem('scrollToSection');
         if (targetId) {
             const el = document.getElementById(targetId);
             if (el) {
-                el.scrollIntoView({ behavior: 'smooth' });
+                el.scrollIntoView({
+                    behavior: 'smooth'
+                });
             }
             sessionStorage.removeItem('scrollToSection');
         }

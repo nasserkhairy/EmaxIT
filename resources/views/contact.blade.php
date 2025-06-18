@@ -75,7 +75,7 @@
                 <div class="col-lg-6">
                     <p class=" text-center mb-4" style="color:#ff8700 ;font-size: 1.8em;margin-top: 10px;">Contact Us
                     </p>
-                    <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                    <form action="" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                         <div class="row gy-4">
 
                             <div class="col-md-6">
