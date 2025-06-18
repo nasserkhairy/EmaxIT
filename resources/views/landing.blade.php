@@ -164,11 +164,16 @@
             <div class="row g-5 align-items-center">
                 <div class="col-xl-5 wow fadeIn" data-wow-delay="0.1s">
                     <div style="color: #ff8700 !important;cursor: auto;"
-                        class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
-                    <h1 class="mb-4">Our Excellent AI Solutions for Your Business</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Explore Our Services</div>
+                    <h1 class="mb-4">EmaxIT International</h1>
+                    <p class="mb-4">offers a comprehensive range of enterprise technology services designed to support
+                        your business at every stage. Our custom software development ensures tailored solutions that
+                        align with your specific operational goals, while our managed IT services provide the stability
+                        and scalability needed to keep your infrastructure running smoothly. Through expert consulting,
+                        we help businesses plan strategically and implement the right technologies for growth. We also
+                        specialize in enterprise integration, enabling seamless connectivity across systems and data
+                        platforms. To support long-term success, we offer digital transformation solutions and
+                        customized training programs that empower your teams to adapt and excel.</p>
                     <a class="btn btn-readmore rounded-pill px-4" href="/customSD">Read More</a>
                 </div>
                 <div class="col-xl-7">
@@ -442,130 +447,130 @@
 
     <x-scripts></x-scripts>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let dots = document.querySelectorAll('.dot');
-            let slides = document.querySelectorAll('.slider-item');
-            let currentIndex = 0;
+    document.addEventListener("DOMContentLoaded", function() {
+        let dots = document.querySelectorAll('.dot');
+        let slides = document.querySelectorAll('.slider-item');
+        let currentIndex = 0;
 
-            function changeSlide() {
-                // Remove active class from all dots
-                dots.forEach(dot => dot.classList.remove('active'));
-                // Add active class to current dot
-                dots[currentIndex].classList.add('active');
-                // Move to the next slide
-                currentIndex = (currentIndex + 1) % slides.length;
-            }
+        function changeSlide() {
+            // Remove active class from all dots
+            dots.forEach(dot => dot.classList.remove('active'));
+            // Add active class to current dot
+            dots[currentIndex].classList.add('active');
+            // Move to the next slide
+            currentIndex = (currentIndex + 1) % slides.length;
+        }
 
-            // Change slide every 3 seconds
-            setInterval(changeSlide, 3000);
+        // Change slide every 3 seconds
+        setInterval(changeSlide, 3000);
 
-            // On click, change to the respective slide
-            dots.forEach((dot, index) => {
-                dot.addEventListener('click', function() {
-                    currentIndex = index;
-                    changeSlide();
-                });
+        // On click, change to the respective slide
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', function() {
+                currentIndex = index;
+                changeSlide();
             });
         });
+    });
     </script>
 
     <script>
-        const slider = document.querySelector('.slider');
-        const slides = document.querySelectorAll('.slider-item');
-        let index = 0;
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slider-item');
+    let index = 0;
 
-        setInterval(() => {
-            index = (index + 1) % slides.length;
-            slider.scrollTo({
-                left: slider.clientWidth * index,
-                behavior: 'smooth'
-            });
-        }, 6000); // كل 4 ثواني
-    </script>
-    <script>
-        new PureCounter();
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const services = document.querySelectorAll('.service-box');
-            const itemsPerPage = 4;
-            const totalPages = Math.ceil(services.length / itemsPerPage);
-            const paginationContainer = document.getElementById('pagination-numbers');
-            let currentPage = 1;
-
-            function showPage(page) {
-                const start = (page - 1) * itemsPerPage;
-                const end = start + itemsPerPage;
-
-                services.forEach((service, index) => {
-                    service.style.display = (index >= start && index < end) ? 'block' : 'none';
-                });
-
-                updatePagination(page);
-            }
-
-            function updatePagination(activePage) {
-                paginationContainer.innerHTML = '';
-                for (let i = 1; i <= totalPages; i++) {
-                    const li = document.createElement('li');
-                    li.className = 'page-item' + (i === activePage ? ' active' : '');
-                    const a = document.createElement('a');
-                    a.className = 'page-link';
-                    a.href = '#';
-                    a.textContent = i;
-                    a.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        currentPage = i;
-                        showPage(currentPage);
-                    });
-                    li.appendChild(a);
-                    paginationContainer.appendChild(li);
-                }
-            }
-
-            showPage(currentPage);
+    setInterval(() => {
+        index = (index + 1) % slides.length;
+        slider.scrollTo({
+            left: slider.clientWidth * index,
+            behavior: 'smooth'
         });
+    }, 6000); // كل 4 ثواني
     </script>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let dots = document.querySelectorAll('.dot');
-            let slides = document.querySelectorAll('.slider-item');
-            let currentIndex = 0;
+    new PureCounter();
+    </script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const services = document.querySelectorAll('.service-box');
+        const itemsPerPage = 4;
+        const totalPages = Math.ceil(services.length / itemsPerPage);
+        const paginationContainer = document.getElementById('pagination-numbers');
+        let currentPage = 1;
 
-            function changeSlide() {
-                // Remove active class from all dots
-                dots.forEach(dot => dot.classList.remove('active'));
-                // Add active class to current dot
-                dots[currentIndex].classList.add('active');
-                // Move to the next slide
-                currentIndex = (currentIndex + 1) % slides.length;
-            }
+        function showPage(page) {
+            const start = (page - 1) * itemsPerPage;
+            const end = start + itemsPerPage;
 
-            // Change slide every 3 seconds
-            setInterval(changeSlide, 3000);
+            services.forEach((service, index) => {
+                service.style.display = (index >= start && index < end) ? 'block' : 'none';
+            });
 
-            // On click, change to the respective slide
-            dots.forEach((dot, index) => {
-                dot.addEventListener('click', function() {
-                    currentIndex = index;
-                    changeSlide();
+            updatePagination(page);
+        }
+
+        function updatePagination(activePage) {
+            paginationContainer.innerHTML = '';
+            for (let i = 1; i <= totalPages; i++) {
+                const li = document.createElement('li');
+                li.className = 'page-item' + (i === activePage ? ' active' : '');
+                const a = document.createElement('a');
+                a.className = 'page-link';
+                a.href = '#';
+                a.textContent = i;
+                a.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    currentPage = i;
+                    showPage(currentPage);
                 });
+                li.appendChild(a);
+                paginationContainer.appendChild(li);
+            }
+        }
+
+        showPage(currentPage);
+    });
+    </script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let dots = document.querySelectorAll('.dot');
+        let slides = document.querySelectorAll('.slider-item');
+        let currentIndex = 0;
+
+        function changeSlide() {
+            // Remove active class from all dots
+            dots.forEach(dot => dot.classList.remove('active'));
+            // Add active class to current dot
+            dots[currentIndex].classList.add('active');
+            // Move to the next slide
+            currentIndex = (currentIndex + 1) % slides.length;
+        }
+
+        // Change slide every 3 seconds
+        setInterval(changeSlide, 3000);
+
+        // On click, change to the respective slide
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', function() {
+                currentIndex = index;
+                changeSlide();
             });
         });
+    });
     </script>
 
     <script>
-        const slider = document.querySelector('.slider');
-        const slides = document.querySelectorAll('.slider-item');
-        let index = 0;
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slider-item');
+    let index = 0;
 
-        setInterval(() => {
-            index = (index + 1) % slides.length;
-            slider.scrollTo({
-                left: slider.clientWidth * index,
-                behavior: 'smooth'
-            });
-        }, 6000); // كل 4 ثواني
+    setInterval(() => {
+        index = (index + 1) % slides.length;
+        slider.scrollTo({
+            left: slider.clientWidth * index,
+            behavior: 'smooth'
+        });
+    }, 6000); // كل 4 ثواني
     </script>
 
 </body>
