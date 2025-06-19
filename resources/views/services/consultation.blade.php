@@ -197,9 +197,7 @@
                 <div class="section-title" data-aos="fade-up">
                     <h2>Solution Architecting</h2>
                     <p>
-                        Your website is more than a digital brochure—it's the front line of your brand.
-                        At EmaxIT International, we design and build high-performing websites and
-                        web applications that drive engagement, simplify operations, and accelerate growth.
+                        At EmaxIT International, our solution architects design the blueprint for scalable, secure, and high-impact digital systems. We align technology with business strategy—ensuring every component works in harmony to drive innovation and long-term success.
                     </p>
                 </div>
                 <div class="row g-0 align-items-stretch shadow-sm mt-4 sub-service-content">
@@ -214,59 +212,53 @@
                             <!-- Tabs -->
                             <ul class="nav nav-pills mb-3">
                                 <li><a class="nav-link active" data-bs-toggle="pill"
-                                        href="#solutionArchitecting-tab1">What We Offer</a></li>
-                                <li><a class="nav-link" data-bs-toggle="pill" href="#solutionArchitecting-tab2">Real
-                                        Results</a></li>
-                                <li><a class="nav-link" data-bs-toggle="pill" href="#solutionArchitecting-tab3">Build
-                                        for Impact</a></li>
+                                        href="#solutionArchitecting-tab1">What We Deliver</a></li>
+                                <li><a class="nav-link" data-bs-toggle="pill" href="#solutionArchitecting-tab2">Business Impact</a></li>
+                                <li><a class="nav-link" data-bs-toggle="pill" href="#solutionArchitecting-tab3">Transform More Than Infrastructure</a></li>
                             </ul><!-- End Tabs -->
                             <!-- Tab Content -->
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="solutionArchitecting-tab1">
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Front-End Excellence</h4>
+                                        <h4>End-to-End Architecture</h4>
                                     </div>
-                                    <p>Responsive, accessible, and interactive UI using React, Angular, or Vue.js.</p>
+                                    <p>Design integrated solutions that connect applications, data, and infrastructure.</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Powerful Back-End</h4>
+                                        <h4>Technology Alignment</h4>
                                     </div>
-                                    <p>Secure, scalable infrastructure built with Node.js, Python, PHP, and robust
-                                        databases.</p>
+                                    <p>Select the right tools, platforms, and frameworks to meet business needs.</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>CMS Solutions</h4>
+                                        <h4>Scalability & Resilience</h4>
                                     </div>
-                                    <p>Easy content management with WordPress, Shopify, or fully custom systems.</p>
+                                    <p>Build architectures that grow with you and recover fast.</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Performance Optimization</h4>
+                                        <h4>Governance & Standards</h4>
                                     </div>
-                                    <p>Fast load times, SEO-friendly, and reliable across devices.</p>
+                                    <p>Ensure compliance, security, and performance from day one.</p>
                                 </div><!-- End Tab 1 Content -->
                                 <div class="tab-pane fade" id="solutionArchitecting-tab2">
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>Education</h4>
-                                    </div>
-                                    <p>A revamped university website boosted traffic by 150% and increased enrollment by
-                                        30%.</p>
-                                    <div class="d-flex align-items-center mt-4">
-                                        <i class="bi bi-check2"></i>
                                         <h4>Healthcare</h4>
                                     </div>
-                                    <p>A custom EHR system cut admin work by 40% and improved data accuracy.</p>
+                                    <p>Designed a modular architecture enabling 40% faster rollout of new services.</p>
                                     <div class="d-flex align-items-center mt-4">
                                         <i class="bi bi-check2"></i>
-                                        <h4>E-commerce</h4>
+                                        <h4>Retail</h4>
                                     </div>
-                                    <p>Speed optimizations lowered bounce rates by 25% and increased sales by 15%.</p>
+                                    <p>Unified legacy and new systems to reduce operational silos and improve CX by 30%.</p>
+                                    <div class="d-flex align-items-center mt-4">
+                                        <i class="bi bi-check2"></i>
+                                        <h4>Logistics</h4>
+                                    </div>
+                                    <p>Built a microservices-based system to support real-time data flow and reduce delivery errors by 25%.</p>
                                 </div><!-- End Tab 2 Content -->
                                 <div class="tab-pane fade" id="solutionArchitecting-tab3">
-                                    <p>From startups to enterprises, we help businesses launch websites that don’t just
-                                        work—but perform. Let’s create
-                                        a web experience your users will remember.</p>
+                                    <p>Solution architecture isn’t just technical design—it’s a foundation for agility, growth, and innovation. Let us architect your vision into reality.</p>
                                 </div><!-- End Tab 3 Content -->
                             </div>
                         </div>
