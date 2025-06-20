@@ -67,28 +67,7 @@
                 </div>
             </div>
 
-            <!-- <div class="col-md-12 portfolio-wrap animate__animated animate__fadeInUp" data-animate-duration="1s" data-animate-delay="0.6s">
-                <div class="row no-gutters align-items-center">
-                    <div class="col-md-5 img js-fullheight" style="background-image: url('{{ asset('assets/images/EMAXIT contract photo copy.jpg') }}');">
-                    </div>
-                    <div class="col-md-7">
-                        <div class="text pt-5 pl-md-5 pl-md-4">
-                            <div class="px-4 px-lg-4">
-                                <div class="desc">
-                                    <div class="top">
-                                        <span class="subheading">COMING SOON</span>
-                                        <h2 class="mb-4"><a href="work.html">Cultural Complex Centre</a></h2>
-                                    </div>
-                                    <div class="absolute">
-                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-                                        <p><a href="#" class="custom-btn">View Portfolio</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+       
         </div>
     </div>
 </section>
