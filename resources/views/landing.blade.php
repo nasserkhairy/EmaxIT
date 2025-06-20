@@ -333,7 +333,9 @@
 
                                 </div>
                                 <h5 class="mb-3">IT Consultation</h5>
-                                <p></p>
+                                <p>Modern challenges need smart strategies. At EmaxIT International, our IT consultation
+                                    services empower businesses with the expert guidance they need to innovate, scale,
+                                    and stay secure in a fast-changing digital world.</p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -345,7 +347,9 @@
 
                                 </div>
                                 <h5 class="mb-3">Business Analysis</h5>
-                                <p></p>
+                                <p>At EmaxIT International, our business analysts turn complexity into clarity. We align
+                                    business goals with technical execution—optimizing processes, enabling data-driven
+                                    decisions, and driving meaningful change.</p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -357,7 +361,10 @@
 
                                 </div>
                                 <h5 class="mb-3">solution Architecture</h5>
-                                <p></p>
+                                <p>At EmaxIT International, our solution architects design the blueprint for scalable,
+                                    secure, and high-impact digital systems. We align technology with business
+                                    strategy—ensuring
+                                    every component works in harmony to drive innovation and long-term success.</p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -369,7 +376,10 @@
 
                                 </div>
                                 <h5 class="mb-3">Artificial Intelligence</h5>
-                                <p></p>
+                                <p>At EmaxIT International, we harness the power of AI to help businesses automate
+                                    smarter, predict faster, and deliver personalized experiences at scale. From machine
+                                    learning to NLP and computer vision, we unlock innovation through data-driven
+                                    intelligence.</p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -381,7 +391,9 @@
 
                                 </div>
                                 <h5 class="mb-3">Integration architecture</h5>
-                                <p></p>
+                                <p>At EmaxIT International, we design integration architectures that connect systems,
+                                    data, and applications—enabling seamless operations, real-time insights, and
+                                    scalable digital ecosystems.</p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -393,7 +405,9 @@
 
                                 </div>
                                 <h5 class="mb-3">Cloud Solution Consultation</h5>
-                                <p></p>
+                                <p>At EmaxIT International, we help businesses move to the cloud with confidence. From
+                                    strategy to migration and optimization, our cloud solutions deliver speed, scale,
+                                    and savings—without the complexity.</p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -405,7 +419,10 @@
 
                                 </div>
                                 <h5 class="mb-3">E-Commerce Consultation</h5>
-                                <p></p>
+                                <p>At EmaxIT International, we help brands transform their online presence through
+                                    tailored e-commerce strategies that drive growth, boost engagement, and optimize
+                                    operations. From platform selection to logistics, we turn clicks into conversions.
+                                </p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -417,7 +434,10 @@
 
                                 </div>
                                 <h5 class="mb-3">Data Analytics Services</h5>
-                                <p></p>
+                                <p>Turn Data Into Decisions. At EmaxIT International, we help businesses transform raw
+                                    data into actionable insights. Our Data Analytics Services uncover trends, explain
+                                    outcomes, and forecast future possibilities—empowering smarter decisions and
+                                    strategic growth.</p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
@@ -429,7 +449,10 @@
 
                                 </div>
                                 <h5 class="mb-3">Digital Marketing Services</h5>
-                                <p></p>
+                                <p>Reach. Engage. Convert. At EmaxIT International, we design data-driven digital
+                                    marketing strategies that turn attention into action. From SEO and PPC to social
+                                    media and e-mail marketing, we help brands grow, engage audiences, and maximize ROI.
+                                </p>
                                 <a class="btn px-3 mt-auto mx-auto rounded-pill" href="">Read More</a>
                             </div>
                         </div>
