@@ -28,16 +28,19 @@
                         </p>
                     </div>
                 </div>
+                @if (session('success'))
+                <div class="alert alert-success text-center" style="color: #ff8700; font-weight: bold; margin-top:100px;">
+                    {{ session('success') }}
+                </div>
+                @endif
 
                 <!-- Form Section on right for large, left for medium/small -->
                 <div class="col-12 order-md-1 order-lg-2 mt-5">
                     <div class="form-container">
-                        @if (isset($_GET['name']))
-                            <p class="text-center mt-3" style="color: #ff8700">Thank you for your message. It has been
-                                sent.</p>
-                            @endif
+                       
                         <h2 class="form-section-title">Request iVisionMT Demo</h2>
-                        <form id="demoRequestForm" action="" method="get" class="php-email-form">
+                        <form id="demoRequestForm" action="{{ route('demo.send') }}" method="POST" class="php-email-form">
+                            @csrf
                             <div class="row gy-4">
                                 <div class="col-md-6">
                                     <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -55,10 +58,12 @@
                                     <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                                     <span class="msg-err" id="email-err">Please enter a valid email</span>
                                 </div>
+                                <input type="hidden" name="form_source" value="ivision Demo">
+
                                 <div class="col-md-12">
                                     <input type="text" name="Company_Name" class="form-control"
                                         placeholder="Company Name" required>
-                                        <span class="msg-err" id="company-err">Please enter a valid company name</span>
+                                    <span class="msg-err" id="company-err">Please enter a valid company name</span>
                                 </div>
                                 <div class="col-md-6">
                                     <select name="company_size" id="company_size" class="form-select">
@@ -116,7 +121,7 @@
                                 <div class="col-md-12">
                                     <textarea name="message" rows="6" class="form-control"
                                         placeholder="Preferred Date and Time / Any Notes" required></textarea>
-                                        <span class="msg-err" id="message-err">Please enter a valid message</span>
+                                    <span class="msg-err" id="message-err">Please enter a valid message</span>
                                 </div>
                                 <div class="col-md-12 text-center mt-3">
                                     <button type="submit">Send Message</button>
@@ -131,20 +136,22 @@
     <x-footer></x-footer>
     <x-scripts></x-scripts>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
-        const targetId = sessionStorage.getItem('scrollToSection');
-        if (targetId) {
-            const el = document.getElementById(targetId);
-            if (el) {
-                el.scrollIntoView({ behavior: 'smooth' });
+        document.addEventListener('DOMContentLoaded', function() {
+            const targetId = sessionStorage.getItem('scrollToSection');
+            if (targetId) {
+                const el = document.getElementById(targetId);
+                if (el) {
+                    el.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+                sessionStorage.removeItem('scrollToSection');
             }
-            sessionStorage.removeItem('scrollToSection');
-        }
-    });
+        });
     </script>
     <script>
         const demoRequestForm = document.getElementById('demoRequestForm');
-        demoRequestForm.addEventListener('submit', function (e) {
+        demoRequestForm.addEventListener('submit', function(e) {
             const form = e.target;
             let isValid = true;
             let messages = [];
@@ -160,42 +167,42 @@
             const message = form.message.value.trim();
             if (name.length < 2) {
                 isValid = false;
-                document.getElementById("name-err").style.display="inline";
+                document.getElementById("name-err").style.display = "inline";
             }
 
             if (jobTitle.length < 2) {
                 isValid = false;
-                document.getElementById("job-err").style.display="inline";
+                document.getElementById("job-err").style.display = "inline";
             }
 
             if (!/^\+?\d{7,15}$/.test(phone)) {
                 isValid = false;
-                document.getElementById("phone-err").style.display="inline";
+                document.getElementById("phone-err").style.display = "inline";
             }
 
             if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
                 isValid = false;
-                document.getElementById("email-err").style.display="inline";
+                document.getElementById("email-err").style.display = "inline";
             }
 
             if (companyName.length < 2) {
                 isValid = false;
-                document.getElementById("company-err").style.display="inline";
+                document.getElementById("company-err").style.display = "inline";
             }
 
             if (!companySize) {
                 isValid = false;
-                document.getElementById("company_size").style.border="2px solid #ff8700";
+                document.getElementById("company_size").style.border = "2px solid #ff8700";
             }
 
             if (!dataSource) {
                 isValid = false;
-                document.getElementById("data_source").style.border="2px solid #ff8700";
+                document.getElementById("data_source").style.border = "2px solid #ff8700";
             }
 
             if (!industry) {
                 isValid = false;
-                document.getElementById("industry").style.border="2px solid #ff8700";
+                document.getElementById("industry").style.border = "2px solid #ff8700";
             }
 
             if (message.length < 2) {
@@ -207,7 +214,6 @@
                 e.preventDefault();
             }
         });
-
     </script>
 </body>
 

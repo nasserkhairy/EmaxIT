@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DemoRequestController;
+
+Route::post('/send-demo', [DemoRequestController::class, 'send'])->name('demo.send');
 
 Route::get('/', function () {
     return view('landing');

@@ -92,7 +92,7 @@
                         <p>With expertise spanning a wide range of cutting-edge technologies and methodologies, EmaxIT
                             delivers tailored solutions that empower organizations and businesses to achieve their
                             strategic objectives, enhance operational efficiency, and drive growth.</p><br>
-                        <a class="btn btn-readmore rounded-pill px-4" href="">About EmaxIT</a>
+                        <a class="btn btn-readmore rounded-pill px-4" href="/about">About EmaxIT</a>
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex">
