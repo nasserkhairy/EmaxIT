@@ -497,7 +497,7 @@
     });
     </script>
 
-    <script>
+    <!-- <script>
     const slider = document.querySelector('.slider');
     const slides = document.querySelectorAll('.slider-item');
     let index = 0;
@@ -509,7 +509,7 @@
             behavior: 'smooth'
         });
     }, 6000); // كل 4 ثواني
-    </script>
+    </script> -->
     <script>
     new PureCounter();
     </script>
@@ -593,7 +593,7 @@
             left: slider.clientWidth * index,
             behavior: 'smooth'
         });
-    }, 6000); // كل 4 ثواني
+    }, 6000); 
     </script>
 
 </body>
